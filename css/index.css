@@ -1,0 +1,253 @@
+/*Room Fonts*/
+/*Medium*/
+@font-face {
+    font-family: 'Room';
+    src: url('../fonts/room_medium-webfont.eot');
+    src: url('../fonts/room_medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/room_medium-webfont.woff') format('woff'),
+         url('../fonts/room_medium-webfont.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+/*Bold*/
+@font-face {
+    font-family: 'Room';
+    src: url('../fonts/room_bold-webfont.eot');
+    src: url('../fonts/room_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/room_bold-webfont.woff') format('woff'),
+         url('../fonts/room_bold-webfont.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+/*Black*/
+@font-face {
+    font-family: 'Room';
+    src: url('../fonts/room_black-webfont.eot');
+    src: url('../fonts/room_black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/room_black-webfont.woff') format('woff'),
+         url('../fonts/room_black-webfont.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+/*Neris*/
+/*Light*/
+@font-face {
+    font-family: 'Neris';
+    src: url('../fonts/neris_light-webfont.eot');
+    src: url('../fonts/neris_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/neris_light-webfont.woff') format('woff'),
+         url('../fonts/neris_light-webfont.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+
+}
+/*Regular*/
+@font-face {
+    font-family: 'Neris';
+    src: url('../fonts/neris-webfont.eot');
+    src: url('../fonts/neris-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/neris-webfont.woff') format('woff'),
+         url('../fonts/neris-webfont.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+
+}
+/*SemiBold*/
+@font-face {
+    font-family: 'Neris';
+    src: url('../fonts/neris_semibold-webfont.eot');
+    src: url('../fonts/neris_semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/neris_semibold-webfont.woff') format('woff'),
+         url('../fonts/neris_semibold-webfont.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+/*Blod*/
+@font-face {
+    font-family: 'Neris';
+    src: url('../fonts/neris_bold-webfont.eot');
+    src: url('../fonts/neris_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/neris_bold-webfont.woff') format('woff'),
+         url('../fonts/neris_bold-webfont.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+.button{
+  padding: 10px 17px;
+  border: 1px solid #f7780e;
+  border-bottom: 2px solid #f7780e;
+  background: linear-gradient(to top, #e49016, #e4ba2d );
+  box-shadow: inset 0px 1px 0px #edc05d;
+  font-size: 17px;
+  font-weight: 400;
+  text-transform: none;
+  color: #1b2129;
+  text-shadow: 1px 1px 1px #fff;
+  display: inline-block;
+  border-radius: 5px;
+}
+.button:focus, .button:hover {
+    background: #e49016;
+    color: #1b2129;
+    text-decoration: none;
+  }
+.button:active{
+    background: linear-gradient(to top, #e4ba2d, #e49016);
+    border: 1px solid #f7780e;
+    border-bottom: 2px solid #f7780e;
+    box-shadow: inset 0px 1px 2px #000;
+}
+
+body{
+   min-width: 1200px;
+   width: auto !important;
+   width:1200px;
+   font-family: 'Neris', sans-serif;
+}
+.container{
+    min-width: 1200px !important;
+}
+/*header*/
+/*=============================*/
+body header{
+  height: 141px;
+  line-height: 141px;
+}
+body header .image {
+  display: inline-block;
+  width: 100%;
+}
+body header .image img{
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 35px;
+  max-width: 100%;
+}
+body header nav{
+  line-height: normal;
+  display: block;
+  width: 100%;
+  margin-top: 56px;
+}
+body header nav a{
+  list-style: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+  border-right: 1px solid #452b2b;
+  padding-right: 20px;
+  margin-left: 35px;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  color:#303030;
+}
+body header nav a:nth-last-child(1){
+  margin-right: 0;
+  border: none;
+}
+body header nav a:hover, a:focus{
+  color: #e49116;
+  text-decoration: none;
+}
+
+/*@media (min-width: 768px and max-width: 992px) {
+  body header nav a{
+    padding-right: 10px !important;
+    margin-left: 10px !important;
+  }
+}*/
+
+body header .wrapper-contact{
+  line-height: normal;
+  display: inline-block;
+  font-weight: 600;
+  margin-top: 17px;
+  margin-left: -17px;
+}
+body header .wrapper-contact .phone{
+  font-size: 25.7px;
+  margin-bottom: 16px;
+  letter-spacing: 0.6px;
+}
+/*=============================*/
+/*hero*/
+/*=============================*/
+body .hero {
+  background-color: #b32d33;
+}
+body .hero .image img{
+  margin-left: -92px;
+  margin-top: 41px;
+}
+body .hero .wrapper{
+  display: block;
+  margin-left: 30px;
+}
+
+body .hero .wrapper h1 {
+    color: #fff;
+    font-family: 'Room',sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    margin-top: 37px;
+    margin-bottom: 44px;
+    text-transform: uppercase;
+}
+body .hero .wrapper h1 b {
+  font-weight: 400;
+  font-size: 35px;
+  display: block;
+  color: #171717;
+  letter-spacing: 2px;
+}
+body .hero .wrapper h1 span {
+  letter-spacing: 3px;
+}
+
+body .hero .wrapper .form {
+    display: inline-block;
+    margin-left: 88px;
+    padding: 14px 27px;
+    text-align: center;
+    background-color: #eeebe6;
+}
+/*=============================*/
+/*form*/
+/*=============================*/
+body .hero .wrapper .loader, .success {
+  display: none;
+}
+body .hero .wrapper .form h1 {
+  font-size: 20px;
+  margin: 0;
+  color: #303030;
+  margin-bottom: 24px;
+}
+body .hero .wrapper .form p {
+  letter-spacing: 1.4px;
+  margin-bottom: 20px;
+}
+body .hero .wrapper .form .form-group {
+  margin-bottom: 20px;
+}
+body .hero .wrapper .form input{
+  width: 270px !important;
+  border: 1px solid #698ac7;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 1px #698ac7;
+  height: 38px;
+  padding-left: 17px;
+}
+body .hero .wrapper .form .buttons {
+  margin-bottom: 14px;
+}
+body .hero .wrapper .form .buttons .submit{
+  border: medium none;
+  box-shadow: none;
+  height: 53px;
+}
+/*=============================*/
+
+
