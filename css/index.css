@@ -184,7 +184,7 @@ body header .wrapper-contact .phone{
 body .hero {
   background-color: #b32d33;
   background: url(../image/hero-bg.svg) no-repeat 50% 0%;
-  padding-bottom: 48px;
+  padding-bottom: 47px;
 }
 body .hero .image img{
   margin-left: -92px;
@@ -340,6 +340,73 @@ body .hero .wrapper-eggs .egg .desc{
   letter-spacing: 1.5px;
   line-height: 19px;
 }
+/*=============================*/
+/*Section Eggs*/
+/*=============================*/
+body .eggs {
+  padding-top: 64px;
+  padding-bottom: 50px;
+}
+body .eggs h1{
+  font-family: 'Room', sans-serif;
+  font-size: 45px;
+  margin: 0;
+  margin-left: 23px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+body .eggs .image {
+  text-align: right;
+}
+body .eggs .image img {
+  margin-top: 60px;
+}
+body .eggs .desc {
+  margin-top: 90px;
+  margin-left: 34px;
+}
+body .eggs .desc h2 {
+  font-weight: 800;
+  font-style: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+body .eggs .desc p {
+  /*letter-spacing: 1px;*/
+  margin: 0;
+  font-size: 20px;
+}
+/*=============================*/
+body .price {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+body .price h1{
+  font-family: 'Room', sans-serif;
+  font-size: 45px;
+  margin: 0;
+  margin-left: 23px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
