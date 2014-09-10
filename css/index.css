@@ -92,7 +92,7 @@
   font-weight: 400;
   text-transform: none;
   color: #1b2129;
-  text-shadow: 1px 1px 1px #fff;
+  text-shadow: 1px 0.5px 1px #fff;
   display: inline-block;
   border-radius: 5px;
 }
@@ -183,6 +183,7 @@ body header .wrapper-contact .phone{
 /*=============================*/
 body .hero {
   background-color: #b32d33;
+  background: url(../image/hero-bg.svg) no-repeat 50% 0%;
 }
 body .hero .image img{
   margin-left: -92px;
