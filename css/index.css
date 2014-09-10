@@ -62,6 +62,15 @@
     font-weight: 600;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Neris';
+    src: url('../fonts/neris_semibold_italic-webfont.eot');
+    src: url('../fonts/neris_semibold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/neris_semibold_italic-webfont.woff') format('woff'),
+         url('../fonts/neris_semibold_italic-webfont.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
 /*Blod*/
 @font-face {
     font-family: 'Neris';
@@ -150,7 +159,6 @@ body header nav a:hover, a:focus{
   color: #e49116;
   text-decoration: none;
 }
-
 /*@media (min-width: 768px and max-width: 992px) {
   body header nav a{
     padding-right: 10px !important;
@@ -212,42 +220,94 @@ body .hero .wrapper .form {
     padding: 14px 27px;
     text-align: center;
     background-color: #eeebe6;
+    margin-bottom: 31px;
 }
-/*=============================*/
-/*form*/
-/*=============================*/
-body .hero .wrapper .loader, .success {
-  display: none;
+
+  /*form*/
+  /*=============================*/
+  body .hero .wrapper .loader, .success {
+    display: none;
+  }
+  body .hero .wrapper .form h1 {
+    font-size: 20px;
+    margin: 0;
+    color: #303030;
+    margin-bottom: 24px;
+  }
+  body .hero .wrapper .form p {
+    letter-spacing: 1.4px;
+    margin-bottom: 20px;
+  }
+  body .hero .wrapper .form .form-group {
+    margin-bottom: 20px;
+  }
+  body .hero .wrapper .form input{
+    width: 270px !important;
+    border: 1px solid #698ac7;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 1px #698ac7;
+    height: 38px;
+    padding-left: 17px;
+  }
+  body .hero .wrapper .form .buttons {
+    margin-bottom: 14px;
+  }
+  body .hero .wrapper .form .buttons .submit{
+    border: medium none;
+    box-shadow: none;
+    height: 53px;
+  }
+  /*=============================*/
+ body .hero .wrapper .lists {
+    display: inline-block;
+    margin-top: 24px;
+    vertical-align: top;
+    color: #fff;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 25px;
+    width: 42%;
+ }
+body .hero .wrapper .lists ul {
+  margin-bottom: 15px;
 }
-body .hero .wrapper .form h1 {
-  font-size: 20px;
-  margin: 0;
-  color: #303030;
-  margin-bottom: 24px;
-}
-body .hero .wrapper .form p {
+body .hero .wrapper .lists ul li {
+  list-style: none;
   letter-spacing: 1.4px;
-  margin-bottom: 20px;
+  line-height: 33px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+ }
+body .hero .wrapper .lists ul li:before {
+    content: "•";
+    display: inline-block;
+    height: 0;
+    margin-left: -14px;
+    top: 0;
+    width: 18px;
 }
-body .hero .wrapper .form .form-group {
-  margin-bottom: 20px;
+body .hero .wrapper .lists img {
+  margin-left: 36px;
 }
-body .hero .wrapper .form input{
-  width: 270px !important;
-  border: 1px solid #698ac7;
-  border-radius: 3px;
-  box-shadow: 0 0 2px 1px #698ac7;
-  height: 38px;
-  padding-left: 17px;
+body .hero .wrapper .note {
+  display: inline-block;
+  line-height: 55px;
+  margin-left: 88px;
+  text-align:center;
+  width: 45%;
 }
-body .hero .wrapper .form .buttons {
-  margin-bottom: 14px;
+body .hero .wrapper .note .desc {
+  display: inline-block;
+  font-size: 45px;
+  font-family: 'Room', sans-serif;
+  font-weight: 600;
+  margin-bottom: 0;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  letter-spacing: 3px;
+  margin-left: 5px;
 }
-body .hero .wrapper .form .buttons .submit{
-  border: medium none;
-  box-shadow: none;
-  height: 53px;
+body .hero .wrapper .note img{
+  margin-left: 10px;
 }
-/*=============================*/
-
-
