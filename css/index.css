@@ -378,25 +378,76 @@ body .eggs .desc p {
 }
 /*=============================*/
 body .price {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 0px;
+  padding-bottom: 42px;
+}
+body .price.gray {
+  background-color: #d9e2e2;
+  padding-top:45px;
 }
 body .price h1{
   font-family: 'Room', sans-serif;
   font-size: 45px;
   margin: 0;
-  margin-left: 23px;
+  margin: 0 0 43px 51px;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
+body .price .wrapper-table {
+    margin-left: -20px; border-radius: 5px; box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5); width: 100%; overflow: hidden; margin-bottom: 0;
+}
+body .price .wrapper-table.last {
+  margin-top: 97px;
+}
+body .price.gray .wrapper-table.last {
+  margin-top: 53px;
+}
+body .price .wrapper-table table {
+  margin-bottom: 0;
+}
+body .price .wrapper-table table thead {
+  background-color: #242424;
+}
+body .price.gray .wrapper-table.last table thead {
+  background-color: #bb282e;
+}
+body .price .wrapper-table table th {
+  color: #fff;
+  letter-spacing: 1.3px;
+  margin: 0;
+  padding: 9px 34px;
+  font-size: 30px;
+}
+body .price .wrapper-table table td.first {
+  border-right: 1px dashed #535354;
+  color: #303030;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 17px 30px;
+  width: 59%;
+}
+body .price .wrapper-table table td.second {
+  width: 49%;
+  font-size: 20px;
+  color: #c9333a;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 17px;
+}
 
+body .price a.button {
+  margin-left: 43px;
+  margin-top: 62px;
+  width: 40%;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 13px 20px;
+}
 
-
-
-
-
-
-
+body .price.gray a.button {
+  margin-top: 72px;
+}
 
 
 
