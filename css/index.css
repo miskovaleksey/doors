@@ -184,6 +184,7 @@ body header .wrapper-contact .phone{
 body .hero {
   background-color: #b32d33;
   background: url(../image/hero-bg.svg) no-repeat 50% 0%;
+  background-size: 100% 100%;
   padding-bottom: 47px;
 }
 body .hero .image img{
@@ -384,6 +385,7 @@ body .price {
 body .price.gray {
   background-color: #d9e2e2;
   padding-top:45px;
+  padding-bottom: 84px;
 }
 body .price h1{
   font-family: 'Room', sans-serif;
@@ -448,11 +450,198 @@ body .price a.button {
 body .price.gray a.button {
   margin-top: 72px;
 }
+/*=============================*/
 
+/*Work Block*/
+/*=============================*/
+body .work {
+  background: url('../image/work-element-bg.png') no-repeat 100% 134%, url('../image/work-bg.svg') no-repeat 50% 0;
+  background-size: auto auto, 100% 100%;
+  padding-top: 55px;
+  padding-bottom: 65px;
+}
+body .work h1 {
+  font-family: 'Room', sans-serif;
+  font-size: 45px;
+  margin: 0;
+  margin: 0 0 0px 70px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #fff;
+}
+body .work  .wrapper-work-egg {
+  margin-top: 72px;
+  text-align: center;
+}
+body .work  .wrapper-work-egg .image {
+  margin-bottom: 28px;
+}
+body .work  .wrapper-work-egg .desc {
+  font-family: 'Room', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 22px;
+}
+/*=============================*/
+/*Reviews Block*/
+/*=============================*/
+body .reviews {
+  padding-top: 50px;
+  padding-bottom: 82px;
+}
+body .reviews h1 {
+  font-family: 'Room', sans-serif;
+  font-size: 45px;
+  margin: 0;
+  margin: 0 0 0px 79px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #303030;
+}
+body .reviews .carusel {
+  position: relative;
+  margin-top: 80px;
+}
+body .reviews .carusel .links a {
+  position: absolute;
+  top: 59px;
+  display: inline-block;
+  width: 66px;
+  height: 51px;
+}
+body .reviews .carusel .links .left {
+  left: -76px;
+  background: url('../image/carusel-arrow-left.png') no-repeat 0 0;
+}
+body .reviews .carusel .links .right {
+  right: -76px;
+  background: url('../image/carusel-arrow-right.png') no-repeat 0 0;
+}
+body .reviews .carusel .viewport {
+  overflow: hidden;
+  width: 825px;
+}
+body .reviews .carusel .viewport .wrapper {
+  font-size: 0;
+  width:2475px;
+}
+body .reviews .carusel .viewport .wrapper .item {
+  display: inline-block;
+  font-size: 16px;
+  padding-top: 15px;
+}
+body .reviews .carusel .viewport .wrapper .item .image {
+  display: inline-block;
+  width: 173px;
+  height: 205px;
+  margin-left: 90px;
+  vertical-align: top;
+  box-shadow: 10px 10px 0px 0px #fff;
+}
+body .reviews .carusel .viewport .wrapper .item .image img {
+  max-width: 100%;
+}
+body .reviews .carusel .viewport .wrapper .item .desc {
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: -5px;
+  vertical-align: top;
+  width: 60%;
+}
+body .reviews .carusel .viewport .wrapper .item .desc p {
+  font-size: 18px;
+  font-weight: 200;
+  letter-spacing: 0.9px;
+  line-height: 22px;
+}
+body .reviews .carusel .viewport .wrapper .item .autor{
+  margin-top: -11px;
+  padding: 15px 15px 15px 306px;
+  background: url('../image/carusel-autor-bg.png') no-repeat 0 0;
+  height: 59px;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Room', sans-serif;
+  letter-spacing: 1px;
+}
+/*=============================*/
+/*Block maps*/
+/*=============================*/
+body .block-map {
+ background: url('../image/map-bg.svg') no-repeat 50% 0%;
+ background-size: 100% auto;
+ padding-top: 85px;
+ padding-bottom: 90px;
+}
+body .block-map #map{
+  height: 328px;
+  border:;
+}
+/*=============================*/
+/*footer*/
+/*=============================*/
+body footer{
+  height: 160px;
+  line-height: 160px;
+}
+body footer .image {
+  display: inline-block;
+  width: 100%;
+}
+body footer .image img{
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 35px;
+  max-width: 100%;
+}
+body footer nav{
+  line-height: normal;
+  display: block;
+  width: 100%;
+  margin-top: 73px;
+}
+body footer nav a{
+  list-style: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+  border-right: 1px solid #452b2b;
+  padding-right: 20px;
+  margin-left: 35px;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  color:#303030;
+}
+body footer nav a:nth-last-child(1){
+  margin-right: 0;
+  border: none;
+}
+body footer nav a:hover, a:focus{
+  color: #e49116;
+  text-decoration: none;
+}
+/*@media (min-width: 768px and max-width: 992px) {
+  body footer nav a{
+    padding-right: 10px !important;
+    margin-left: 10px !important;
+  }
+}*/
 
-
-
-
+body footer .wrapper-contact{
+  line-height: normal;
+  display: inline-block;
+  font-weight: 600;
+  margin-top: 33px;
+  margin-left: -17px;
+}
+body footer .wrapper-contact .phone{
+  font-size: 25.7px;
+  margin-bottom: 16px;
+  letter-spacing: 0.6px;
+}
+/*=============================*/
 
 
 

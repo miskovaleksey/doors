@@ -22,6 +22,7 @@
     <!-- My script  -->
     <script type="text/javascript" src="./javascript/pixel-perfect.js"></script>
     <script type="text/javascript" src="./javascript/cookie.js"></script>
+    <script type="text/javascript" src="./javascript/carousel.js"></script>
     <script type="text/javascript" src="./javascript/doors.js"></script>
 
   </head>
@@ -430,5 +431,218 @@
     </div>
   </section>
 
+  <section class="work" id="section-work">
+    <div class="container">
+
+      <div class="col-md-offset-2 col-md-8"><h1>Как мы работаем</h1></div>
+
+      <div class="col-xs-3 wrapper-work-egg">
+          <div class="image">
+              <img src="./image/work-egg-01.png">
+          </div>
+          <div class="desc">Вы оставляете заявку<br /> на сайте</div>
+      </div>
+      <div class="col-xs-3 wrapper-work-egg">
+          <div class="image">
+              <img src="./image/work-egg-02.png">
+          </div>
+          <div class="desc">Мы перезваниваем<br /> в течение 1 минуты</div>
+      </div>
+      <div class="col-xs-3 wrapper-work-egg">
+          <div class="image">
+              <img src="./image/work-egg-03.png">
+          </div>
+          <div class="desc">Наш мастер приезжает<br /> через 1 час</div>
+      </div>
+      <div class="col-xs-3 wrapper-work-egg">
+          <div class="image">
+              <img src="./image/work-egg-04.png">
+          </div>
+          <div class="desc">Двери установлены<br />в течение 1 дня.<br />
+Вы довольны</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews" id="section-reviews">
+    <div class="container">
+
+      <div class="col-md-offset-1 col-md-9">
+        <h1>Отзывы о нашей работе</h1>
+      </div>
+      <div class="col-xs-9 col-xs-offset-1 carusel">
+        <div class="links">
+          <a href="#" class="arrow left"></a>
+        </div>
+
+        <div class="viewport">
+          <div class="wrapper">
+            <div class="item">
+              <div class="image">
+                <img src="./image/reviews-01.jpg">
+              </div>
+              <div class="desc">
+                <p>Среди большого количества предложений, отобрал, на мой взгляд, пару более компетентных компаний. Оставил им заявки, первым отреагировали «Фирма», с ними и начал работать. Все предметно обсудили, и в тот же день дверь уже была установлена. Результатом доволен, теперь советую знакомым.</p>
+              </div>
+              <div class="autor">Михаил, предприниматель</div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img src="./image/reviews-01.jpg">
+              </div>
+              <div class="desc">
+                <p>Среди большого количества предложений, отобрал, на мой взгляд, пару более компетентных компаний. Оставил им заявки, первым отреагировали «Фирма», с ними и начал работать. Все предметно обсудили, и в тот же день дверь уже была установлена. Результатом доволен, теперь советую знакомым.</p>
+              </div>
+              <div class="autor">Михаил, предприниматель</div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img src="./image/reviews-01.jpg">
+              </div>
+              <div class="desc">
+                <p>Среди большого количества предложений, отобрал, на мой взгляд, пару более компетентных компаний. Оставил им заявки, первым отреагировали «Фирма», с ними и начал работать. Все предметно обсудили, и в тот же день дверь уже была установлена. Результатом доволен, теперь советую знакомым.</p>
+              </div>
+              <div class="autor">Михаил, предприниматель</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="links">
+          <a href="#" class="arrow right"></a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="block-map" id="section-block-map">
+    <div class="container">
+      <div class="col-xs-6">
+          <div id="map"></div>
+      </div>
+      <div class="col-xs-offset-1 col-xs-4">
+                  <div class="form">
+<form action="#"
+      method="post"
+      data-metrika-goal="#">
+<input name="authenticity_token" type="hidden" value="" />
+<input name="order[form]" value="Акция" type="hidden"/>
+
+  <div class="cont">
+    <h1>Оставьте заявку на<br /> установку дверей</h1>
+    <p>Мы перезвоним в течении 1 минуты</p>
+    <div class="fields">
+      <div class="form-group">
+        <input type="text"
+               class="text"
+               name="order[name]"
+               placeholder="Ваше имя"
+               data-required="true"
+               data-name="Имя"
+               />
+        <div class="error"></div>
+      </div>
+      <div class="form-group">
+        <input type="text"
+               class="text"
+               name="order[phone]"
+               placeholder="Контактный телефон"
+               data-required="true"
+               data-name="Телефон"
+              />
+        <div class="error"></div>
+      </div>
+    </div>
+    <div class="buttons form-group">
+      <input type="submit" class="submit button" value="Позвонить мне!" />
+    </div>
+    <div class="clearfix"></div>
+<!--     <div class="note">*Эти данные нужны только для того, чтобы связаться с Вами.</div> -->
+  </div>
+
+  <div class="loader">
+    <div class="spiner"></div>
+    <div>Отправка формы</div>
+  </div>
+  <div class="success">
+    <div class="head">Спасибо,<br /> Ваша заявка отправлена</div>
+    <div class="txt">В ближайшее время мы свяжемся с вами</div>
+  </div>
+</form>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="col-xs-3">
+        <div class="image">
+          <img src="./image/logo.svg">
+        </div>
+      </div>
+      <div class="col-xs-5">
+        <nav>
+          <a href="#">Как мы работаем</a>
+          <a href="#">Цены</a>
+          <a href="#">Отзывы о нас</a>
+        </nav>
+      </div>
+      <div class="col-xs-4">
+        <div class="wrapper-contact">
+          <div class="phone">+7 (343) 000 00 00</div>
+          <a href="#"
+           class="button"
+           data-toggle="modal"
+           data-target="#popup-footer">
+            Заказать обратный звонок
+          </a>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="popup-footer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+              </div>
+              <div class="modal-body">
+               forma
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+
+
+
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

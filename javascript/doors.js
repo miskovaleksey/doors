@@ -1,8 +1,19 @@
 //=require pixel-perfect.js
 //=require cookie.js
+//=require carousel.js
+
 
 
 jQuery(function(){
+
+  $(window).load(function(){
+
+    if($('#map').length>0){
+      var log = 60.718603;
+      var lat = 56.758995;
+      installMap(lat,log);
+    }
+  });
 
   $(document).ajaxSend(function(e, xhr, options) {
     var token = $("meta[name='csrf-token']").attr("content");
@@ -15,46 +26,22 @@ jQuery(function(){
     $('#popup').modal('show');
   })
 
-  //   $('#popup-simple-wraper .item').click(function () {
-  //     $('#popup-simple-wraper .item').removeClass('active');
-  //     setActiveImage($(this));
-  //     return false;
-  //   });
+  new Carousel('#section-reviews .carusel');
 
-  //   return false;
-  // });
+  function installMap(lat, log){
+    var coords = [lat,log];
+    var map = new ymaps.Map ("map", {
+        center: coords,
+        zoom: 16
+    });
 
-  // $('.product a').click(function () {
-  //     popup.show();
-  //     var parentElement = $(this).parents('.wrap-links');
-  //     var htmlForPopup  = $(parentElement).find('.block-for-popup').html();
-
-  //     $('#popup-simple-content').html(htmlForPopup);
-  //     new Carousel('#popup-simple-wraper .wrapper-images');
-  //     popup.center();
-
-  //     $('#popup-simple-wraper .item').each(function(index, element){
-  //       console.log(element);
-  //       if (index == 0) {
-  //         $(element).addClass('active');
-  //       };
-  //     });
-
-  //     $('#popup-simple-wraper .item').click(function () {
-  //       $('#popup-simple-wraper .item').removeClass('active');
-  //       setActiveImage($(this));
-  //       return false;
-  //     });
-
-
-  //     return false;
-  // });
-
-
-  // var setActiveImage = function (link) {
-  //   $(link).addClass('active');
-  //   var newSrc = $(link).find('img').attr('src');
-  //   $('#popup-simple-wraper .image img').attr('src', newSrc);
-  // }
+    var position = map.getGlobalPixelCenter();
+    map.setGlobalPixelCenter([ position[0], position[1] ]);
+    var placemark = new ymaps.Placemark(coords, {
+       content: '',
+       balloonContent: ''
+      });
+    map.geoObjects.add(placemark);
+  }
 
 });
