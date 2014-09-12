@@ -15,6 +15,13 @@ jQuery(function(){
     }
   });
 
+  $('body a.scroll').click(function () {
+     elementClick = $(this).attr("href");
+     destination = $(elementClick).offset().top;
+     $('body, html').animate( { scrollTop: destination }, 1100 );
+     return false;
+   });
+
   $(document).ajaxSend(function(e, xhr, options) {
     var token = $("meta[name='csrf-token']").attr("content");
     xhr.setRequestHeader("X-CSRF-Token", token);

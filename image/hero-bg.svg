@@ -2,13 +2,14 @@
 <!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
 <svg version="1.1" baseProfile="tiny" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-	 x="0px" y="0px" width="1920px" height="1031px" viewBox="0 0 1920 1031" xml:space="preserve">
-<polygon fill="#B32D33" points="0,0.445 1920,0.445 1920,856.445 0,527.445 "/>
-<polygon fill="#F0F0F0" points="0,527.445 1920,856.445 1920,1031 0,1031 "/>
-<polygon fill="#A1262D" points="0,0.445 750.486,0.445 658.095,176.906 369.527,324.445 368.905,105.693 0,295.445 "/>
-<polygon fill="#9A2429" points="0,295.445 368.905,105.693 369.527,324.445 0,515.5 "/>
-<polygon fill="#901F24" points="369.527,324.445 369.527,590.765 0,527.445 0,515.5 "/>
+	 x="0px" y="0px" width="3000px" height="1031px" viewBox="-540 0 3000 1031" xml:space="preserve">
+<polygon fill="#B32D33" points="0,0.445 2460,0.445 2450.44,948.345 0,527.445 "/>
+<polygon fill="#F0F0F0" points="-540,429.613 2466.75,950 2466.75,1031 -533.25,1031 "/>
+<polygon fill="#A1262D" points="-540,0.445 750.486,0.445 658.095,176.906 369.527,324.445 368.905,105.693 -325.148,467.967 
+	-540,430.781 "/>
+<polygon fill="#9A2429" points="-328.185,467.441 368.905,105.693 369.527,324.445 -18.189,524.12 "/>
+<polygon fill="#901F24" points="369.527,324.445 369.527,590.765 -21.16,523.576 "/>
 <polygon fill="#962127" points="658.095,176.906 440.635,602.95 369.527,590.765 369.527,324.686 "/>
-<polygon fill="#A7272C" points="658.095,176.906 771.96,119.555 771.96,659.724 440.635,602.95 "/>
-<polygon fill="#AA292E" points="1395.929,406.041 1692.828,817.518 1395.929,766.643 "/>
+<polygon fill="#A7272C" points="658.095,176.906 771.96,119.555 772.215,656.722 440.635,602.95 "/>
+<polygon fill="#AA292E" points="1395.929,404.041 1692.828,815.518 1395.929,764.643 "/>
 </svg>

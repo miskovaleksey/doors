@@ -88,13 +88,14 @@
   border-bottom: 2px solid #f7780e;
   background: linear-gradient(to top, #e49016, #e4ba2d );
   box-shadow: inset 0px 1px 0px #edc05d;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 400;
   text-transform: none;
   color: #1b2129;
   text-shadow: 1px 0.5px 1px #fff;
   display: inline-block;
   border-radius: 5px;
+  box-shadow: 1px 1px 2px 0px rgba(0,0,0,1);
 }
 .button:focus, .button:hover {
     background: #e49016;
@@ -117,6 +118,31 @@ body{
 .container{
     min-width: 1200px !important;
 }
+
+/*Popup*/
+/*=============================*/
+body .modal-dialog {
+}
+body .modal-dialog .modal-content {
+  text-align: center;
+  background-color: #eeebe6 !important;
+  line-height: normal !important;
+}
+body .modal-dialog .modal-content .modal-header {
+  border-bottom: none;
+}
+body .modal-dialog .modal-content .modal-header h4 {
+  font-size: 24px;
+}
+body .modal-dialog .modal-content .modal-body .form .fields .form-group input {
+  height: 38px;
+  padding-left: 17px;
+}
+body .modal-dialog .modal-content .modal-body .form .loader, .success {
+  display: none;
+}
+/*=============================*/
+
 /*header*/
 /*=============================*/
 body header{
@@ -183,8 +209,7 @@ body header .wrapper-contact .phone{
 /*=============================*/
 body .hero {
   background-color: #b32d33;
-  background: url(../image/hero-bg.svg) no-repeat 50% 0%;
-  background-size: 100% 100%;
+  background: url(../image/hero-bg.svg) no-repeat 50% 0% #f0f0f0;
   padding-bottom: 47px;
 }
 body .hero .image img{
@@ -217,17 +242,21 @@ body .hero .wrapper h1 span {
   letter-spacing: 3px;
 }
 
-body .hero .wrapper .form {
-    display: inline-block;
-    margin-left: 88px;
-    padding: 14px 27px;
-    text-align: center;
-    background-color: #eeebe6;
-    margin-bottom: 31px;
-}
-
   /*form*/
   /*=============================*/
+  body .hero .wrapper .form {
+      display: inline-block;
+      margin-left: 88px;
+      padding: 14px 27px;
+      text-align: center;
+      margin-bottom: 31px;
+      border: 1px solid #a8a7a7;
+      border-radius: 5px;
+      /*background-color: #eeebe6;*/
+      background: url('../image/form-bg.png') no-repeat 50% 100% #eeebe6;
+      background-size: 101% auto;
+  }
+
   body .hero .wrapper .loader, .success {
     display: none;
   }
@@ -246,14 +275,13 @@ body .hero .wrapper .form {
   }
   body .hero .wrapper .form input{
     width: 270px !important;
-    border: 1px solid #698ac7;
-    border-radius: 3px;
-    box-shadow: 0 0 2px 1px #698ac7;
     height: 38px;
     padding-left: 17px;
   }
   body .hero .wrapper .form .buttons {
     margin-bottom: 14px;
+    box-shadow: 1px 1px 2px 0px rgba(0,0,0,1);
+    border-radius: 3px;
   }
   body .hero .wrapper .form .buttons .submit{
     border: medium none;
@@ -269,7 +297,7 @@ body .hero .wrapper .form {
     font-weight: 600;
     font-style: italic;
     font-size: 25px;
-    width: 42%;
+    width: 40%;
  }
 body .hero .wrapper .lists ul {
   margin-bottom: 15px;
@@ -456,7 +484,6 @@ body .price.gray a.button {
 /*=============================*/
 body .work {
   background: url('../image/work-element-bg.png') no-repeat 100% 134%, url('../image/work-bg.svg') no-repeat 50% 0;
-  background-size: auto auto, 100% 100%;
   padding-top: 55px;
   padding-bottom: 65px;
 }
@@ -576,9 +603,61 @@ body .block-map {
  padding-bottom: 90px;
 }
 body .block-map #map{
-  height: 328px;
-  border:;
+  height: 322px;
+  /*border: 3px solid linear-gradient(to top, #e3e8ea, #97aab2);*/
+  border: 5px solid #97aab2;
+  box-shadow: inset 2px 2px 5px 0px #000;
 }
+/*form*/
+  /*=============================*/
+  body .block-map .wrapper .form {
+      display: inline-block;
+      margin-left: -48px;
+      padding: 14px 27px;
+      text-align: center;
+      border: 1px solid #a8a7a7;
+      border-radius: 5px;
+      /*background-color: #eeebe6;*/
+      background: url('../image/form-bg.png') no-repeat 50% 100% #eeebe6;
+      background-size: 101% auto;
+  }
+
+  body .block-map .wrapper .loader, .success {
+    display: none;
+  }
+  body .block-map .wrapper .form h1 {
+    font-size: 20px;
+    margin: 0;
+    color: #303030;
+    margin-bottom: 24px;
+  }
+  body .block-map .wrapper .form p {
+    letter-spacing: 1.4px;
+    margin-bottom: 20px;
+  }
+  body .block-map .wrapper .form .form-group {
+    margin-bottom: 20px;
+  }
+  body .block-map .wrapper .form input{
+    width: 270px !important;
+    border: 1px solid #698ac7;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 1px #698ac7;
+    height: 38px;
+    padding-left: 17px;
+  }
+  body .block-map .wrapper .form .buttons {
+    margin-bottom: 14px;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
+    border-radius: 3px;
+  }
+  body .block-map .wrapper .form .buttons .submit{
+    border: medium none;
+    box-shadow: none;
+    height: 53px;
+  }
+  /*=============================*/
+
 /*=============================*/
 /*footer*/
 /*=============================*/
