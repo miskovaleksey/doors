@@ -14,6 +14,8 @@ foreach($order as $key => $value){
 $body ='<table>'.$body.'</table>';
 
 require_once "PHPMailer/PHPMailerAutoload.php";
+require_once "config.php";
+
 
 $mail = new PHPMailer;
 
