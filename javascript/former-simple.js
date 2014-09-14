@@ -33,7 +33,7 @@ $('body').on('submit','form',function(e){
 
   if(!has_errors){
     form.addClass('loading');
-    $('form').parents('.modal-content').find('.modal-title').css('display', 'none')
+    $(form).parents('.modal-content').find('.modal-title').css('display', 'none')
     $.ajax(url,{
       url: url,
       type: "POST",
