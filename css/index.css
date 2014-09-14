@@ -1,3 +1,4 @@
+
 /*Room Fonts*/
 /*Medium*/
 @font-face {
@@ -138,9 +139,44 @@ body .modal-dialog .modal-content .modal-body .form .fields .form-group input {
   height: 38px;
   padding-left: 17px;
 }
-body .modal-dialog .modal-content .modal-body .form .loader, .success {
+body .modal-dialog .modal-content .modal-body form .loader,
+body .modal-dialog .modal-content .modal-body form .success {
   display: none;
 }
+  body .modal-dialog .modal-content .modal-body .form .loading {
+    text-align:center;
+  }
+  body .modal-dialog .modal-content .modal-body .form .loading .loader {
+      display:block;
+      height:100%;
+      width:100%;
+      font-size:21px;
+  }
+  body .modal-dialog .modal-content .modal-body .form .loading .loader .spiner{
+        display: inline-block;
+        background: url('../image/spinner.png') no-repeat 0 0;
+        width:95px;
+        height:95px;
+        margin-bottom:20px;
+        animation: spin 1s infinite linear;
+        padding: 30px 40px;
+  }
+  @keyframes spin {
+    0%   {transform: rotate(0deg)}
+    100% {transform: rotate(360deg)}
+  }
+
+  body .modal-dialog .modal-content .modal-body .form .success .success {
+    height:100%;
+    width:100%;
+    display:block;
+    font-size:21px;
+    line-height:31px;
+  }
+  body .modal-dialog .modal-content .modal-body .form .success .success .head{font-weight:bold;font-size:26px;margin-bottom:20px}
+
+  body .modal-dialog .modal-content .modal-body .form .loading .cont {display:none;}
+  body .modal-dialog .modal-content .modal-body .success .cont {display:none;}
 /*=============================*/
 
 /*header*/
@@ -252,14 +288,50 @@ body .hero .wrapper h1 span {
       margin-bottom: 31px;
       border: 1px solid #a8a7a7;
       border-radius: 5px;
-      /*background-color: #eeebe6;*/
       background: url('../image/form-bg.png') no-repeat 50% 100% #eeebe6;
       background-size: 101% auto;
   }
 
-  body .hero .wrapper .loader, .success {
+  body .hero .wrapper form .loader,
+  body .hero .wrapper form .success {
     display: none;
   }
+  body .hero .wrapper .form .loading {
+    text-align:center;
+  }
+  body .hero .wrapper .form .loading .loader {
+      display:block;
+      height:270px;
+      width:291px;
+      font-size:21px;
+  }
+  body .hero .wrapper .form .loading .loader .spiner{
+        display: inline-block;
+        background: url('../image/spinner.png') no-repeat 0 0;
+        width:95px;
+        height:95px;
+        margin-bottom:20px;
+        animation: spin 1s infinite linear;
+        padding: 30px 40px;
+  }
+  @keyframes spin {
+    0%   {transform: rotate(0deg)}
+    100% {transform: rotate(360deg)}
+  }
+
+  body .hero .wrapper .form .success .success {
+      height:270px;
+      width:291px;
+    display:block;
+    font-size:21px;
+    line-height:31px;
+  }
+  body .hero .wrapper .form .success .success .head{font-weight:bold;font-size:26px;margin-bottom:20px}
+
+  body .hero .wrapper .form .loading .cont {display:none;}
+  body .hero .wrapper .form .success .cont {display:none;}
+
+
   body .hero .wrapper .form h1 {
     font-size: 20px;
     margin: 0;
@@ -633,9 +705,45 @@ body .block-map #map{
       background-size: 101% auto;
   }
 
-  body .block-map .wrapper .loader, .success {
+  body .block-map .wrapper form .loader,
+  body .block-map .wrapper form .success {
     display: none;
   }
+    body .block-map .wrapper .form .loading {
+    text-align:center;
+  }
+  body .block-map .wrapper .form .loading .loader {
+      display:block;
+      height:270px;
+      width:291px;
+      font-size:21px;
+  }
+  body .block-map .wrapper .form .loading .loader .spiner{
+        display: inline-block;
+        background: url('../image/spinner.png') no-repeat 0 0;
+        width:95px;
+        height:95px;
+        margin-bottom:20px;
+        animation: spin 1s infinite linear;
+        padding: 30px 40px;
+  }
+  @keyframes spin {
+    0%   {transform: rotate(0deg)}
+    100% {transform: rotate(360deg)}
+  }
+
+  body .block-map .wrapper .form .success .success {
+      height:270px;
+      width:291px;
+    display:block;
+    font-size:21px;
+    line-height:31px;
+  }
+  body .block-map .wrapper .form .success .success .head{font-weight:bold;font-size:26px;margin-bottom:20px}
+
+  body .block-map .wrapper .form .loading .cont {display:none;}
+  body .block-map .wrapper .form .success .cont {display:none;}
+
   body .block-map .wrapper .form h1 {
     font-size: 20px;
     margin: 0;

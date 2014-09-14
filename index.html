@@ -23,6 +23,7 @@
     <script type="text/javascript" src="./javascript/pixel-perfect.js"></script>
     <script type="text/javascript" src="./javascript/cookie.js"></script>
     <script type="text/javascript" src="./javascript/carousel.js"></script>
+    <script type="text/javascript" src="./javascript/former-simple.js"></script>
     <script type="text/javascript" src="./javascript/doors.js"></script>
 
   </head>
@@ -68,13 +69,10 @@
               <div class="modal-body">
               <!-- FORM -->
                 <div class="form">
-                  <form action="#"
+                  <form action="mailer.php"
                         method="post"
                         data-metrika-goal="#">
-                  <input name="authenticity_token"
-                         type="hidden"
-                        value="" />
-                  <input name="order[form]"
+                  <input name="order[форма]"
                          value="Акция"
                         type="hidden"/>
                     <div class="cont">
@@ -83,7 +81,7 @@
                         <div class="form-group">
                           <input type="text"
                                  class="text"
-                                 name="order[name]"
+                                 name="order[имя]"
                                  placeholder="Ваше имя"
                                  data-required="true"
                                  data-name="Имя"
@@ -93,7 +91,7 @@
                         <div class="form-group">
                           <input type="text"
                                  class="text"
-                                 name="order[phone]"
+                                 name="order[телефон]"
                                  placeholder="Контактный телефон"
                                  data-required="true"
                                  data-name="Телефон"
@@ -143,13 +141,10 @@
           <span>в Екатеринбурге!</span></h1>
           <!-- Form -->
           <div class="form">
-            <form action="#"
+            <form action="mailer.php"
                   method="post"
                   data-metrika-goal="#">
-            <input name="authenticity_token"
-                   type="hidden"
-                  value="" />
-            <input name="order[form]"
+            <input name="order[форма]"
                    value="Акция"
                    type="hidden"/>
               <div class="cont">
@@ -159,7 +154,7 @@
                   <div class="form-group">
                     <input type="text"
                            class="text"
-                           name="order[name]"
+                           name="order[имя]"
                            placeholder="Ваше имя"
                            data-required="true"
                            data-name="Имя"
@@ -169,7 +164,7 @@
                   <div class="form-group">
                     <input type="text"
                            class="text"
-                           name="order[phone]"
+                           name="order[телефон]"
                            placeholder="Контактный телефон"
                            data-required="true"
                            data-name="Телефон"
@@ -395,13 +390,10 @@
               <div class="modal-body">
               <!-- Form -->
                 <div class="form">
-                  <form action="#"
+                  <form action="mailer.php"
                         method="post"
                         data-metrika-goal="#">
-                  <input name="authenticity_token"
-                         type="hidden"
-                         value="" />
-                  <input name="order[form]"
+                  <input name="order[форма]"
                          value="Акция"
                          type="hidden"/>
 
@@ -411,7 +403,7 @@
                         <div class="form-group">
                           <input type="text"
                                  class="text"
-                                 name="order[name]"
+                                 name="order[имя]"
                                  placeholder="Ваше имя"
                                  data-required="true"
                                  data-name="Имя"
@@ -421,7 +413,7 @@
                         <div class="form-group">
                           <input type="text"
                                  class="text"
-                                 name="order[phone]"
+                                 name="order[телефон]"
                                  placeholder="Контактный телефон"
                                  data-required="true"
                                  data-name="Телефон"
@@ -526,56 +518,52 @@
               </div>
               <div class="modal-body">
                 <div class="form">
-<form action="#"
-      method="post"
-      data-metrika-goal="#">
-<input name="authenticity_token"
-       type="hidden"
-       value="" />
-<input name="order[form]"
-       value="Акция"
-       type="hidden"/>
+                  <form action="mailer.php"
+                        method="post"
+                        data-metrika-goal="#">
+                  <input name="order[форма]"
+                         value="Акция"
+                         type="hidden"/>
 
-  <div class="cont">
-    <p>Мы перезвоним в течении 1 минуты</p>
-    <div class="fields">
-      <div class="form-group">
-        <input type="text"
-               class="text"
-               name="order[name]"
-               placeholder="Ваше имя"
-               data-required="true"
-               data-name="Имя"
-               />
-        <div class="error"></div>
-      </div>
-      <div class="form-group">
-        <input type="text"
-               class="text"
-               name="order[phone]"
-               placeholder="Контактный телефон"
-               data-required="true"
-               data-name="Телефон"
-              />
-        <div class="error"></div>
-      </div>
-    </div>
-    <div class="buttons form-group">
-      <input type="submit" class="submit button" value="Позвонить мне!" />
-    </div>
-    <div class="clearfix"></div>
-<!--     <div class="note">*Эти данные нужны только для того, чтобы связаться с Вами.</div> -->
-  </div>
+                    <div class="cont">
+                      <p>Мы перезвоним в течении 1 минуты</p>
+                      <div class="fields">
+                        <div class="form-group">
+                          <input type="text"
+                                 class="text"
+                                 name="order[имя]"
+                                 placeholder="Ваше имя"
+                                 data-required="true"
+                                 data-name="Имя"
+                                 />
+                          <div class="error"></div>
+                        </div>
+                        <div class="form-group">
+                          <input type="text"
+                                 class="text"
+                                 name="order[телефон]"
+                                 placeholder="Контактный телефон"
+                                 data-required="true"
+                                 data-name="Телефон"
+                                />
+                          <div class="error"></div>
+                        </div>
+                      </div>
+                      <div class="buttons form-group">
+                        <input type="submit" class="submit button" value="Позвонить мне!" />
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
 
-  <div class="loader">
-    <div class="spiner"></div>
-    <div>Отправка формы</div>
-  </div>
-  <div class="success">
-    <div class="head">Спасибо,<br /> Ваша заявка отправлена</div>
-    <div class="txt">В ближайшее время мы свяжемся с вами</div>
-  </div>
-</form>
+                    <div class="loader">
+                      <div class="spiner"></div>
+                      <div>Отправка формы</div>
+                    </div>
+                    <div class="success">
+                      <div class="head">Спасибо,<br /> Ваша заявка отправлена</div>
+                      <div class="txt">В ближайшее время мы свяжемся с вами</div>
+                    </div>
+                  </form>
                 </div>
               </div>
             </div>
@@ -704,13 +692,10 @@
       <div class="col-xs-offset-1 col-xs-4">
         <div class="wrapper">
           <div class="form">
-            <form action="#"
+            <form action="mailer.php"
                   method="post"
                   data-metrika-goal="#">
-            <input name="authenticity_token"
-                   type="hidden"
-                   value="" />
-            <input name="order[form]"
+            <input name="order[форма]"
                    value="Акция"
                    type="hidden"/>
 
@@ -721,7 +706,7 @@
                   <div class="form-group">
                     <input type="text"
                            class="text"
-                           name="order[name]"
+                           name="order[имя]"
                            placeholder="Ваше имя"
                            data-required="true"
                            data-name="Имя"
@@ -731,7 +716,7 @@
                   <div class="form-group">
                     <input type="text"
                            class="text"
-                           name="order[phone]"
+                           name="order[телефон]"
                            placeholder="Контактный телефон"
                            data-required="true"
                            data-name="Телефон"
@@ -802,13 +787,10 @@
               </div>
               <div class="modal-body">
                 <div class="form">
-                  <form action="#"
+                  <form action="mailer.php"
                         method="post"
                         data-metrika-goal="#">
-                  <input name="authenticity_token"
-                         type="hidden"
-                        value="" />
-                  <input name="order[form]"
+                  <input name="order[форма]"
                          value="Акция"
                          type="hidden"/>
 
@@ -818,7 +800,7 @@
                         <div class="form-group">
                           <input type="text"
                                  class="text"
-                                 name="order[name]"
+                                 name="order[имя]"
                                  placeholder="Ваше имя"
                                  data-required="true"
                                  data-name="Имя"
@@ -828,7 +810,7 @@
                         <div class="form-group">
                           <input type="text"
                                  class="text"
-                                 name="order[phone]"
+                                 name="order[телефон]"
                                  placeholder="Контактный телефон"
                                  data-required="true"
                                  data-name="Телефон"
