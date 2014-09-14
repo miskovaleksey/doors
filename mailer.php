@@ -20,18 +20,18 @@ $mail = new PHPMailer;
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'smtp.gmail.com;';  // Specify main and backup SMTP servers
+$mail->Host = $host;  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'username@gmail.com';                 // SMTP username
-$mail->Password = 'secret';                           // SMTP password
+$mail->Username = $username;                 // SMTP username
+$mail->Password = $password;                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;
 $mail->CharSet = 'UTF-8';
 
-$mail->From = 'from@example.com';
+$mail->From = 'robot@mybilder.ru';
 $mail->FromName = 'Mailer';
-$mail->addAddress('recipient@mail.com');                 // Add a recipient
-$mail->addReplyTo('info@example.com', 'Information');
+$mail->addAddress('miskovaleksey@gmail.com');
+$mail->addAddress('nheartnett@gmail.com');
 
 $mail->WordWrap = 50;                                 // Set word wrap to 50
 $mail->isHTML(true);                                  // Set email format to
