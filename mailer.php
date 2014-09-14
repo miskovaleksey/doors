@@ -22,16 +22,15 @@ $mail = new PHPMailer;
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com;';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'miskovaleksey@gmail.com';                 // SMTP username
-$mail->Password = 'Miskov_83';                           // SMTP password
+$mail->Username = 'username@gmail.com';                 // SMTP username
+$mail->Password = 'secret';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;
 $mail->CharSet = 'UTF-8';
 
 $mail->From = 'from@example.com';
 $mail->FromName = 'Mailer';
-$mail->addAddress('alien2005@e1.ru');     // Add a recipient
-// $mail->addAddress('maksim@context-prosto.ru');     // Add a recipient
+$mail->addAddress('recipient@mail.com');                 // Add a recipient
 $mail->addReplyTo('info@example.com', 'Information');
 
 $mail->WordWrap = 50;                                 // Set word wrap to 50
