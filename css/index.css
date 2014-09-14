@@ -410,6 +410,18 @@ body .price {
   padding-top: 0px;
   padding-bottom: 42px;
 }
+body .price > .container {
+  position: relative;
+}
+
+body .price > .container a.arrow-up {
+   position: absolute; right: 3.5%; top:16.5%; width: 88px; height: 88px;
+  background: url('../image/arrow-up.png') no-repeat 0 0;
+}
+body .price > .container a.arrow-up.fixed {
+  position: fixed; right: 3.5%; top:16.5%;
+  z-index: 10;
+}
 body .price.gray {
   background-color: #d9e2e2;
   padding-top:45px;
@@ -598,7 +610,6 @@ body .reviews .carusel .viewport .wrapper .item .autor{
 /*=============================*/
 body .block-map {
  background: url('../image/map-bg.svg') no-repeat 50% 0%;
- background-size: 100% auto;
  padding-top: 85px;
  padding-bottom: 90px;
 }

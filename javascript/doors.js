@@ -51,4 +51,22 @@ jQuery(function(){
     map.geoObjects.add(placemark);
   }
 
+  // run function position nav ellement after scroll
+  $(window).on('scroll', scrollUpDucument);
+  // run function position nav element after ducument ready
+  scrollUpDucument();
+
 });
+
+  function scrollUpDucument (argument) {
+    var element          = $('#section-price');
+    var upPostionParent  = element.offset().top;
+    var upPositionWindow = window.scrollY;
+
+    element.find('.arrow-up').removeClass('fixed')
+    if (upPostionParent < upPositionWindow) {
+      element.find('.arrow-up').addClass('fixed')
+      console.log('position fixed');
+    };
+
+  }

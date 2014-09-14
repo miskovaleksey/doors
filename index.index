@@ -27,7 +27,7 @@
 
   </head>
 <body class="modal-hide">
-  <header>
+  <header id="section-main">
     <div class="container">
       <div class="col-xs-3">
         <div class="image">
@@ -53,7 +53,12 @@
         </div>
 
         <!-- Modal -->
-        <div class="modal fade" id="popup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal fade"
+             id="popup"
+             tabindex="-1"
+             role="dialog"
+             aria-labelledby="myModalLabel"
+             aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
@@ -61,59 +66,65 @@
                 <h4 class="modal-title">Оставьте заявку на установку дверей</h4>
               </div>
               <div class="modal-body">
+              <!-- FORM -->
                 <div class="form">
-<form action="#"
-      method="post"
-      data-metrika-goal="#">
-<input name="authenticity_token" type="hidden" value="" />
-<input name="order[form]" value="Акция" type="hidden"/>
+                  <form action="#"
+                        method="post"
+                        data-metrika-goal="#">
+                  <input name="authenticity_token"
+                         type="hidden"
+                        value="" />
+                  <input name="order[form]"
+                         value="Акция"
+                        type="hidden"/>
+                    <div class="cont">
+                      <p>Мы перезвоним в течении 1 минуты</p>
+                      <div class="fields">
+                        <div class="form-group">
+                          <input type="text"
+                                 class="text"
+                                 name="order[name]"
+                                 placeholder="Ваше имя"
+                                 data-required="true"
+                                 data-name="Имя"
+                                 />
+                          <div class="error"></div>
+                        </div>
+                        <div class="form-group">
+                          <input type="text"
+                                 class="text"
+                                 name="order[phone]"
+                                 placeholder="Контактный телефон"
+                                 data-required="true"
+                                 data-name="Телефон"
+                                />
+                          <div class="error"></div>
+                        </div>
+                      </div>
+                      <div class="buttons form-group">
+                        <input type="submit"
+                               class="submit button"
+                               value="Позвонить мне!" />
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
 
-  <div class="cont">
-    <p>Мы перезвоним в течении 1 минуты</p>
-    <div class="fields">
-      <div class="form-group">
-        <input type="text"
-               class="text"
-               name="order[name]"
-               placeholder="Ваше имя"
-               data-required="true"
-               data-name="Имя"
-               />
-        <div class="error"></div>
-      </div>
-      <div class="form-group">
-        <input type="text"
-               class="text"
-               name="order[phone]"
-               placeholder="Контактный телефон"
-               data-required="true"
-               data-name="Телефон"
-              />
-        <div class="error"></div>
-      </div>
-    </div>
-    <div class="buttons form-group">
-      <input type="submit" class="submit button" value="Позвонить мне!" />
-    </div>
-    <div class="clearfix"></div>
-<!--     <div class="note">*Эти данные нужны только для того, чтобы связаться с Вами.</div> -->
-  </div>
-
-  <div class="loader">
-    <div class="spiner"></div>
-    <div>Отправка формы</div>
-  </div>
-  <div class="success">
-    <div class="head">Спасибо,<br /> Ваша заявка отправлена</div>
-    <div class="txt">В ближайшее время мы свяжемся с вами</div>
-  </div>
-</form>
+                    <div class="loader">
+                      <div class="spiner"></div>
+                      <div>Отправка формы</div>
+                    </div>
+                    <div class="success">
+                      <div class="head">Спасибо,<br /> Ваша заявка отправлена</div>
+                      <div class="txt">В ближайшее время мы свяжемся с вами</div>
+                    </div>
+                  </form>
                 </div>
+              <!-- END FORM -->
               </div>
             </div>
           </div>
         </div>
-
+        <!-- End Modal -->
       </div>
     </div>
   </header>
@@ -130,56 +141,60 @@
           <h1>Установка дверей
           <b>межкомнатных и входных</b>
           <span>в Екатеринбурге!</span></h1>
-
+          <!-- Form -->
           <div class="form">
-<form action="#"
-      method="post"
-      data-metrika-goal="#">
-<input name="authenticity_token" type="hidden" value="" />
-<input name="order[form]" value="Акция" type="hidden"/>
-
-  <div class="cont">
-    <h1>Оставьте заявку на<br /> установку дверей</h1>
-    <p>Мы перезвоним в течении 1 минуты</p>
-    <div class="fields">
-      <div class="form-group">
-        <input type="text"
-               class="text"
-               name="order[name]"
-               placeholder="Ваше имя"
-               data-required="true"
-               data-name="Имя"
-               />
-        <div class="error"></div>
-      </div>
-      <div class="form-group">
-        <input type="text"
-               class="text"
-               name="order[phone]"
-               placeholder="Контактный телефон"
-               data-required="true"
-               data-name="Телефон"
-              />
-        <div class="error"></div>
-      </div>
-    </div>
-    <div class="buttons form-group">
-      <input type="submit" class="submit button" value="Позвонить мне!" />
-    </div>
-    <div class="clearfix"></div>
-<!--     <div class="note">*Эти данные нужны только для того, чтобы связаться с Вами.</div> -->
-  </div>
-
-  <div class="loader">
-    <div class="spiner"></div>
-    <div>Отправка формы</div>
-  </div>
-  <div class="success">
-    <div class="head">Спасибо,<br /> Ваша заявка отправлена</div>
-    <div class="txt">В ближайшее время мы свяжемся с вами</div>
-  </div>
-</form>
+            <form action="#"
+                  method="post"
+                  data-metrika-goal="#">
+            <input name="authenticity_token"
+                   type="hidden"
+                  value="" />
+            <input name="order[form]"
+                   value="Акция"
+                   type="hidden"/>
+              <div class="cont">
+                <h1>Оставьте заявку на<br /> установку дверей</h1>
+                <p>Мы перезвоним в течении 1 минуты</p>
+                <div class="fields">
+                  <div class="form-group">
+                    <input type="text"
+                           class="text"
+                           name="order[name]"
+                           placeholder="Ваше имя"
+                           data-required="true"
+                           data-name="Имя"
+                           />
+                    <div class="error"></div>
+                  </div>
+                  <div class="form-group">
+                    <input type="text"
+                           class="text"
+                           name="order[phone]"
+                           placeholder="Контактный телефон"
+                           data-required="true"
+                           data-name="Телефон"
+                          />
+                    <div class="error"></div>
+                  </div>
+                </div>
+                <div class="buttons form-group">
+                  <input type="submit"
+                         class="submit button"
+                         value="Позвонить мне!" />
+                </div>
+                <div class="clearfix"></div>
+              </div>
+              <div class="loader">
+                <div class="spiner"></div>
+                <div>Отправка формы</div>
+              </div>
+              <div class="success">
+                <div class="head">Спасибо,<br /> Ваша заявка отправлена</div>
+                <div class="txt">В ближайшее время мы свяжемся с вами</div>
+              </div>
+            </form>
           </div>
+          <!-- End Form -->
           <div class="lists">
             <ul>
               <li>Вы экономите<br /> до 3 000 рублей.</li>
@@ -194,7 +209,7 @@
         </div>
       </div>
     </div>
-
+    <!-- Hero-Eggs -->
     <div class="container">
       <div class="wrapper-eggs">
         <div class="col-xs-2">
@@ -229,7 +244,7 @@
         </div>
       </div>
     </div>
-
+    <!-- end Hero-Eggs -->
   </section>
 
   <section class="eggs" id="section-eggs">
@@ -283,8 +298,11 @@
 
   <section class="price" id="section-price">
     <div class="container">
-      <div class="col-md-offset-1 col-md-9"><h1>Цены на установку дверей</h1></div>
-      <div class="col-md-offset-1 col-md-9">
+      <a href="#section-main" class="arrow-up scroll"></a>
+      <div class="col-xs-offset-1 col-xs-9">
+        <h1>Цены на установку дверей</h1>
+      </div>
+      <div class="col-xs-offset-1 col-xs-9">
         <div class="wrapper-table">
           <table class="table table-striped">
             <thead>
@@ -314,7 +332,7 @@
         </div>
       </div>
 
-      <div class="col-md-offset-1 col-md-9">
+      <div class="col-xs-offset-1 col-xs-9">
         <div class="wrapper-table last">
           <table class="table table-striped">
             <thead>
@@ -362,7 +380,12 @@
         </div>
 
         <!-- Modal -->
-        <div class="modal fade" id="popup-price-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal fade"
+            id="popup-price-1"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="myModalLabel"
+            aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
@@ -370,67 +393,73 @@
                 <h4 class="modal-title">Оставьте заявку на установку дверей</h4>
               </div>
               <div class="modal-body">
+              <!-- Form -->
                 <div class="form">
-<form action="#"
-      method="post"
-      data-metrika-goal="#">
-<input name="authenticity_token" type="hidden" value="" />
-<input name="order[form]" value="Акция" type="hidden"/>
+                  <form action="#"
+                        method="post"
+                        data-metrika-goal="#">
+                  <input name="authenticity_token"
+                         type="hidden"
+                         value="" />
+                  <input name="order[form]"
+                         value="Акция"
+                         type="hidden"/>
 
-  <div class="cont">
-    <p>Мы перезвоним в течении 1 минуты</p>
-    <div class="fields">
-      <div class="form-group">
-        <input type="text"
-               class="text"
-               name="order[name]"
-               placeholder="Ваше имя"
-               data-required="true"
-               data-name="Имя"
-               />
-        <div class="error"></div>
-      </div>
-      <div class="form-group">
-        <input type="text"
-               class="text"
-               name="order[phone]"
-               placeholder="Контактный телефон"
-               data-required="true"
-               data-name="Телефон"
-              />
-        <div class="error"></div>
-      </div>
-    </div>
-    <div class="buttons form-group">
-      <input type="submit" class="submit button" value="Позвонить мне!" />
-    </div>
-    <div class="clearfix"></div>
-<!--     <div class="note">*Эти данные нужны только для того, чтобы связаться с Вами.</div> -->
-  </div>
+                    <div class="cont">
+                      <p>Мы перезвоним в течении 1 минуты</p>
+                      <div class="fields">
+                        <div class="form-group">
+                          <input type="text"
+                                 class="text"
+                                 name="order[name]"
+                                 placeholder="Ваше имя"
+                                 data-required="true"
+                                 data-name="Имя"
+                                 />
+                          <div class="error"></div>
+                        </div>
+                        <div class="form-group">
+                          <input type="text"
+                                 class="text"
+                                 name="order[phone]"
+                                 placeholder="Контактный телефон"
+                                 data-required="true"
+                                 data-name="Телефон"
+                                />
+                          <div class="error"></div>
+                        </div>
+                      </div>
+                      <div class="buttons form-group">
+                        <input type="submit"
+                               class="submit button"
+                               value="Позвонить мне!" />
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
 
-  <div class="loader">
-    <div class="spiner"></div>
-    <div>Отправка формы</div>
-  </div>
-  <div class="success">
-    <div class="head">Спасибо,<br /> Ваша заявка отправлена</div>
-    <div class="txt">В ближайшее время мы свяжемся с вами</div>
-  </div>
-</form>
+                    <div class="loader">
+                      <div class="spiner"></div>
+                      <div>Отправка формы</div>
+                    </div>
+                    <div class="success">
+                      <div class="head">Спасибо,<br /> Ваша заявка отправлена</div>
+                      <div class="txt">В ближайшее время мы свяжемся с вами</div>
+                    </div>
+                  </form>
                 </div>
+                <!-- end Form -->
               </div>
             </div>
           </div>
         </div>
-
-
+      <!-- end Modal -->
       </div>
     </div>
   </section>
 
   <section class="price gray" id="section-price-gray">
     <div class="container">
-      <div class="col-md-offset-1 col-md-9">
+      <div class="col-xs-offset-1 col-xs-9">
         <div class="wrapper-table">
           <table class="table table-striped">
             <thead>
@@ -483,7 +512,12 @@
       </div>
 
         <!-- Modal -->
-        <div class="modal fade" id="popup-price-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal fade"
+             id="popup-price-2"
+             tabindex="-1"
+             role="dialog"
+             aria-labelledby="myModalLabel"
+             aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
@@ -495,8 +529,12 @@
 <form action="#"
       method="post"
       data-metrika-goal="#">
-<input name="authenticity_token" type="hidden" value="" />
-<input name="order[form]" value="Акция" type="hidden"/>
+<input name="authenticity_token"
+       type="hidden"
+       value="" />
+<input name="order[form]"
+       value="Акция"
+       type="hidden"/>
 
   <div class="cont">
     <p>Мы перезвоним в течении 1 минуты</p>
@@ -545,7 +583,7 @@
         </div>
 
 
-      <div class="col-md-offset-1 col-md-9">
+      <div class="col-xs-offset-1 col-xs-9">
         <div class="wrapper-table last">
           <table class="table table-striped">
             <thead>
@@ -666,53 +704,58 @@
       <div class="col-xs-offset-1 col-xs-4">
         <div class="wrapper">
           <div class="form">
-<form action="#"
-      method="post"
-      data-metrika-goal="#">
-<input name="authenticity_token" type="hidden" value="" />
-<input name="order[form]" value="Акция" type="hidden"/>
+            <form action="#"
+                  method="post"
+                  data-metrika-goal="#">
+            <input name="authenticity_token"
+                   type="hidden"
+                   value="" />
+            <input name="order[form]"
+                   value="Акция"
+                   type="hidden"/>
 
-  <div class="cont">
-    <h1>Оставьте заявку на<br /> установку дверей</h1>
-    <p>Мы перезвоним в течении 1 минуты</p>
-    <div class="fields">
-      <div class="form-group">
-        <input type="text"
-               class="text"
-               name="order[name]"
-               placeholder="Ваше имя"
-               data-required="true"
-               data-name="Имя"
-               />
-        <div class="error"></div>
-      </div>
-      <div class="form-group">
-        <input type="text"
-               class="text"
-               name="order[phone]"
-               placeholder="Контактный телефон"
-               data-required="true"
-               data-name="Телефон"
-              />
-        <div class="error"></div>
-      </div>
-    </div>
-    <div class="buttons form-group">
-      <input type="submit" class="submit button" value="Позвонить мне!" />
-    </div>
-    <div class="clearfix"></div>
-<!--     <div class="note">*Эти данные нужны только для того, чтобы связаться с Вами.</div> -->
-  </div>
+              <div class="cont">
+                <h1>Оставьте заявку на<br /> установку дверей</h1>
+                <p>Мы перезвоним в течении 1 минуты</p>
+                <div class="fields">
+                  <div class="form-group">
+                    <input type="text"
+                           class="text"
+                           name="order[name]"
+                           placeholder="Ваше имя"
+                           data-required="true"
+                           data-name="Имя"
+                           />
+                    <div class="error"></div>
+                  </div>
+                  <div class="form-group">
+                    <input type="text"
+                           class="text"
+                           name="order[phone]"
+                           placeholder="Контактный телефон"
+                           data-required="true"
+                           data-name="Телефон"
+                          />
+                    <div class="error"></div>
+                  </div>
+                </div>
+                <div class="buttons form-group">
+                  <input type="submit"
+                         class="submit button"
+                         value="Позвонить мне!" />
+                </div>
+                <div class="clearfix"></div>
+              </div>
 
-  <div class="loader">
-    <div class="spiner"></div>
-    <div>Отправка формы</div>
-  </div>
-  <div class="success">
-    <div class="head">Спасибо,<br /> Ваша заявка отправлена</div>
-    <div class="txt">В ближайшее время мы свяжемся с вами</div>
-  </div>
-</form>
+              <div class="loader">
+                <div class="spiner"></div>
+                <div>Отправка формы</div>
+              </div>
+              <div class="success">
+                <div class="head">Спасибо,<br /> Ваша заявка отправлена</div>
+                <div class="txt">В ближайшее время мы свяжемся с вами</div>
+              </div>
+            </form>
           </div>
         </div>
       </div>
@@ -745,7 +788,12 @@
         </div>
 
         <!-- Modal -->
-        <div class="modal fade" id="popup-footer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal fade"
+             id="popup-footer"
+             tabindex="-1"
+             role="dialog"
+             aria-labelledby="myModalLabel"
+             aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
@@ -754,64 +802,67 @@
               </div>
               <div class="modal-body">
                 <div class="form">
-<form action="#"
-      method="post"
-      data-metrika-goal="#">
-<input name="authenticity_token" type="hidden" value="" />
-<input name="order[form]" value="Акция" type="hidden"/>
+                  <form action="#"
+                        method="post"
+                        data-metrika-goal="#">
+                  <input name="authenticity_token"
+                         type="hidden"
+                        value="" />
+                  <input name="order[form]"
+                         value="Акция"
+                         type="hidden"/>
 
-  <div class="cont">
-    <p>Мы перезвоним в течении 1 минуты</p>
-    <div class="fields">
-      <div class="form-group">
-        <input type="text"
-               class="text"
-               name="order[name]"
-               placeholder="Ваше имя"
-               data-required="true"
-               data-name="Имя"
-               />
-        <div class="error"></div>
-      </div>
-      <div class="form-group">
-        <input type="text"
-               class="text"
-               name="order[phone]"
-               placeholder="Контактный телефон"
-               data-required="true"
-               data-name="Телефон"
-              />
-        <div class="error"></div>
-      </div>
-    </div>
-    <div class="buttons form-group">
-      <input type="submit" class="submit button" value="Позвонить мне!" />
-    </div>
-    <div class="clearfix"></div>
-<!--     <div class="note">*Эти данные нужны только для того, чтобы связаться с Вами.</div> -->
-  </div>
+                    <div class="cont">
+                      <p>Мы перезвоним в течении 1 минуты</p>
+                      <div class="fields">
+                        <div class="form-group">
+                          <input type="text"
+                                 class="text"
+                                 name="order[name]"
+                                 placeholder="Ваше имя"
+                                 data-required="true"
+                                 data-name="Имя"
+                                 />
+                          <div class="error"></div>
+                        </div>
+                        <div class="form-group">
+                          <input type="text"
+                                 class="text"
+                                 name="order[phone]"
+                                 placeholder="Контактный телефон"
+                                 data-required="true"
+                                 data-name="Телефон"
+                                />
+                          <div class="error"></div>
+                        </div>
+                      </div>
+                      <div class="buttons form-group">
+                        <input type="submit"
+                               class="submit button"
+                               value="Позвонить мне!" />
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
 
-  <div class="loader">
-    <div class="spiner"></div>
-    <div>Отправка формы</div>
-  </div>
-  <div class="success">
-    <div class="head">Спасибо,<br /> Ваша заявка отправлена</div>
-    <div class="txt">В ближайшее время мы свяжемся с вами</div>
-  </div>
-</form>
+                    <div class="loader">
+                      <div class="spiner"></div>
+                      <div>Отправка формы</div>
+                    </div>
+                    <div class="success">
+                      <div class="head">Спасибо,<br /> Ваша заявка отправлена</div>
+                      <div class="txt">В ближайшее время мы свяжемся с вами</div>
+                    </div>
+                  </form>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      <!-- end modal -->
 
       </div>
     </div>
   </footer>
-
-
-
 
 </body>
 </html>
