@@ -131,6 +131,8 @@
     </div>
   </header>
 
+  <a href="#section-main" class="arrow-up scroll"></a>
+
   <section class="hero" id="section-hero">
     <div class="container">
       <div class="col-xs-4">
@@ -297,7 +299,6 @@
 
   <section class="price" id="section-price">
     <div class="container">
-      <a href="#section-main" class="arrow-up scroll"></a>
       <div class="col-xs-offset-1 col-xs-9">
         <h1>Цены на установку дверей</h1>
       </div>

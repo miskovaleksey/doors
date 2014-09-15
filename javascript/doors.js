@@ -64,14 +64,14 @@ jQuery(function(){
     var element          = $('#section-hero');
     var heightElement    = $(element).outerHeight(true);
     var top              = $(element).offset().top;
-    var bottom           =  heightElement - top;
+    var bottom           =  heightElement + top;
     var upPositionWindow = window.scrollY;
 
-    element.find('.arrow-up').removeClass('fixed')
+    $('.arrow-up').removeClass('fixed')
 
     if (bottom < upPositionWindow) {
-      element.find('.arrow-up').addClass('fixed')
-      console.log('position fixed');
+      $('.arrow-up').addClass('fixed');
+      // console.log('position fixed');
     };
 
   }
