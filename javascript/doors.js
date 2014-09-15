@@ -7,10 +7,9 @@
 jQuery(function(){
 
   $(window).load(function(){
-
     if($('#map').length>0){
-      var log = 60.718603;
-      var lat = 56.758995;
+      var log = 60.602092;
+      var lat = 56.831718;
       installMap(lat,log);
     }
   });
@@ -39,7 +38,7 @@ jQuery(function(){
     var coords = [lat,log];
     var map = new ymaps.Map ("map", {
         center: coords,
-        zoom: 16
+        zoom: 15
     });
 
     var position = map.getGlobalPixelCenter();
@@ -49,6 +48,9 @@ jQuery(function(){
        balloonContent: ''
       });
     map.geoObjects.add(placemark);
+    map.controls
+       .add('zoomControl')
+       .add('typeSelector');
   }
 
   // run function position nav ellement after scroll
@@ -59,12 +61,15 @@ jQuery(function(){
 });
 
   function scrollUpDucument (argument) {
-    var element          = $('#section-price');
-    var upPostionParent  = element.offset().top;
+    var element          = $('#section-hero');
+    var heightElement    = $(element).outerHeight(true);
+    var top              = $(element).offset().top;
+    var bottom           =  heightElement - top;
     var upPositionWindow = window.scrollY;
 
     element.find('.arrow-up').removeClass('fixed')
-    if (upPostionParent < upPositionWindow) {
+
+    if (bottom < upPositionWindow) {
       element.find('.arrow-up').addClass('fixed')
       console.log('position fixed');
     };

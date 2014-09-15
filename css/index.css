@@ -90,10 +90,10 @@
   background: linear-gradient(to top, #e49016, #e4ba2d );
   box-shadow: inset 0px 1px 0px #edc05d;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 600;
   text-transform: none;
   color: #1b2129;
-  text-shadow: 1px 0.5px 1px #fff;
+  text-shadow: 1px 1px 1px rgba(255,255,255, 0.7);
   display: inline-block;
   border-radius: 5px;
   box-shadow: 1px 1px 2px 0px rgba(0,0,0,1);
@@ -207,8 +207,8 @@ body header nav a{
   text-transform: uppercase;
   display: inline-block;
   border-right: 1px solid #452b2b;
-  padding-right: 20px;
-  margin-left: 35px;
+  padding-right: 28px;
+  margin-left: 28px;
   padding-top: 12px;
   padding-bottom: 10px;
   color:#303030;
@@ -301,8 +301,8 @@ body .hero .wrapper h1 span {
   }
   body .hero .wrapper .form .loading .loader {
       display:block;
-      height:270px;
-      width:291px;
+      height:291px;
+      width:270px;
       font-size:21px;
   }
   body .hero .wrapper .form .loading .loader .spiner{
@@ -320,13 +320,13 @@ body .hero .wrapper h1 span {
   }
 
   body .hero .wrapper .form .success .success {
-      height:270px;
-      width:291px;
+    height:221px;
+    width:270px;
     display:block;
     font-size:21px;
     line-height:31px;
   }
-  body .hero .wrapper .form .success .success .head{font-weight:bold;font-size:26px;margin-bottom:20px}
+  body .hero .wrapper .form .success .success .head{font-weight:bold;font-size:26px;margin-bottom:20px; margin-top: 60px;}
 
   body .hero .wrapper .form .loading .cont {display:none;}
   body .hero .wrapper .form .success .cont {display:none;}
@@ -337,6 +337,7 @@ body .hero .wrapper h1 span {
     margin: 0;
     color: #303030;
     margin-bottom: 24px;
+    font-weight: bold;
   }
   body .hero .wrapper .form p {
     letter-spacing: 1.4px;
@@ -455,12 +456,15 @@ body .eggs h1{
   margin-left: 23px;
   text-transform: uppercase;
   letter-spacing: 3px;
+  font-weight: bold;
 }
 body .eggs .image {
   text-align: right;
 }
 body .eggs .image img {
   margin-top: 60px;
+  box-shadow: 0 -15px 62px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 100%;
 }
 body .eggs .desc {
   margin-top: 90px;
@@ -481,8 +485,6 @@ body .eggs .desc p {
 body .price {
   padding-top: 0px;
   padding-bottom: 42px;
-}
-body .price > .container {
   position: relative;
 }
 
@@ -506,6 +508,7 @@ body .price h1{
   margin: 0 0 43px 51px;
   text-transform: uppercase;
   letter-spacing: 3px;
+  font-weight: bold;
 }
 body .price .wrapper-table {
     margin-left: -20px; border-radius: 5px; box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5); width: 100%; overflow: hidden; margin-bottom: 0;
@@ -518,6 +521,7 @@ body .price.gray .wrapper-table.last {
 }
 body .price .wrapper-table table {
   margin-bottom: 0;
+  background-color: #fff;
 }
 body .price .wrapper-table table thead {
   background-color: #242424;
@@ -532,6 +536,9 @@ body .price .wrapper-table table th {
   padding: 9px 34px;
   font-size: 30px;
 }
+body .price .wrapper-table table tbody tr:nth-child(even){
+  background-color: #efeff0;
+}
 body .price .wrapper-table table td.first {
   border-right: 1px dashed #535354;
   color: #303030;
@@ -545,11 +552,13 @@ body .price .wrapper-table table td.second {
   font-size: 20px;
   color: #c9333a;
   font-weight: 600;
-  text-align: center;
+  text-align: right;
   letter-spacing: 1px;
   padding: 17px;
 }
-
+body .price .wrapper-table table td.second span {
+  margin-right: 30%;
+}
 body .price a.button {
   margin-left: 43px;
   margin-top: 62px;
@@ -579,13 +588,19 @@ body .work h1 {
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #fff;
+  font-weight: bold;
 }
 body .work  .wrapper-work-egg {
   margin-top: 72px;
   text-align: center;
+  position: relative;
 }
 body .work  .wrapper-work-egg .image {
   margin-bottom: 28px;
+}
+body .work  .wrapper-work-egg .image img{
+  position: relative;
+  z-index: 2
 }
 body .work  .wrapper-work-egg .desc {
   font-family: 'Room', sans-serif;
@@ -594,6 +609,15 @@ body .work  .wrapper-work-egg .desc {
   text-transform: uppercase;
   color: #fff;
   line-height: 22px;
+}
+body .work .wrapper-work-egg .image-arrow{
+  background: url("../image/eggs-arrow.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  height: 39px;
+  position: absolute;
+  right: 5px;
+  top: 30%;
+  width: 55px;
+  z-index: 1;
 }
 /*=============================*/
 /*Reviews Block*/
@@ -610,6 +634,7 @@ body .reviews h1 {
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #303030;
+  font-weight: bold;
 }
 body .reviews .carusel {
   position: relative;
@@ -749,6 +774,7 @@ body .block-map #map{
     margin: 0;
     color: #303030;
     margin-bottom: 24px;
+    font-weight: bold;
   }
   body .block-map .wrapper .form p {
     letter-spacing: 1.4px;
@@ -806,8 +832,8 @@ body footer nav a{
   text-transform: uppercase;
   display: inline-block;
   border-right: 1px solid #452b2b;
-  padding-right: 20px;
-  margin-left: 35px;
+  padding-right: 28px;
+  margin-left: 28px;
   padding-top: 12px;
   padding-bottom: 10px;
   color:#303030;

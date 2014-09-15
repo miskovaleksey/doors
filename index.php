@@ -289,7 +289,7 @@
       <div class="col-xs-6">
         <div class="desc">
           <h2>Стоимость</h2>
-          <p class="text">Экономия до 3000 руб. в сравнении с фирмами.</p>
+          <p class="text">Экономия до 3000 руб. в сравнении с другими фирмами.</p>
         </div>
       </div>
     </div>
@@ -303,7 +303,7 @@
       </div>
       <div class="col-xs-offset-1 col-xs-9">
         <div class="wrapper-table">
-          <table class="table table-striped">
+          <table class="table">
             <thead>
               <tr>
                 <th colspan="2">Межкомнатные двери</th>
@@ -312,19 +312,19 @@
             <tbody>
               <tr>
                 <td class="first">Монтаж одностворчатой двери</td>
-                <td class="second">от 1500 руб.</td>
+                <td class="second"><span>от 1200 руб.</span></td>
               </tr>
               <tr>
-                <td class="first">Монтаж двухстворчатой двери</td>
-                <td class="second">от 2300 руб.</td>
+                <td class="first">Монтаж двустворчатой двери</td>
+                <td class="second"><span>от 2300 руб.</span></td>
               </tr>
               <tr>
                 <td class="first">Монтаж сборной арки</td>
-                <td class="second">2100 руб.</td>
+                <td class="second"><span>2300 руб.</span></td>
               </tr>
               <tr>
                 <td class="first">Монтаж откосов</td>
-                <td class="second">от 1300 руб.</td>
+                <td class="second"><span>от 1300 руб.</span></td>
               </tr>
             </tbody>
           </table>
@@ -333,7 +333,7 @@
 
       <div class="col-xs-offset-1 col-xs-9">
         <div class="wrapper-table last">
-          <table class="table table-striped">
+          <table class="table">
             <thead>
               <tr>
                 <th colspan="2">А так же дополнительные услуги</th>
@@ -342,27 +342,27 @@
             <tbody>
               <tr>
                 <td class="first">Установка добора (расширителя)</td>
-                <td class="second">500 руб.</td>
+                <td class="second"><span>500 руб.</span></td>
               </tr>
               <tr>
                 <td class="first">Врезка замка</td>
-                <td class="second">500 руб.</td>
+                <td class="second"><span>500 руб.</span></td>
               </tr>
               <tr>
                 <td class="first">Демонтаж двери</td>
-                <td class="second">400 руб.</td>
+                <td class="second"><span>200 руб.</span></td>
               </tr>
               <tr>
                 <td class="first">Расширение проёма</td>
-                <td class="second">от 400 руб.</td>
+                <td class="second"><span>от 400 руб.</span></td>
               </tr>
               <tr>
                 <td class="first">Сужение проёма</td>
-                <td class="second">от 200 руб.</td>
+                <td class="second"><span>от 200 руб.</span></td>
               </tr>
               <tr>
                 <td class="first">Вынос мусора</td>
-                <td class="second">300 руб.</td>
+                <td class="second"><span>300 руб.</span></td>
               </tr>
             </tbody>
           </table>
@@ -457,7 +457,7 @@
     <div class="container">
       <div class="col-xs-offset-1 col-xs-9">
         <div class="wrapper-table">
-          <table class="table table-striped">
+          <table class="table">
             <thead>
               <tr>
                 <th colspan="2">Входные двери</th>
@@ -466,31 +466,31 @@
             <tbody>
               <tr>
                 <td class="first">Монтаж металлической двери</td>
-                <td class="second">от 1500 руб.</td>
+                <td class="second"><span>от 1500 руб.</span></td>
               </tr>
               <tr>
                 <td class="first">Демонтаж металлической двери</td>
-                <td class="second">от 2300  руб.</td>
+                <td class="second"><span>300  руб.</span></td>
               </tr>
               <tr>
                 <td class="first">Демонтаж заливной металлической рамы</td>
-                <td class="second">2100 руб.</td>
+                <td class="second"><span>2000 руб.</span></td>
               </tr>
               <tr>
                 <td class="first">Расширение проёма (кирпич, гипс)</td>
-                <td class="second">от 1300  руб.</td>
+                <td class="second"><span>от 500  руб.</span></td>
               </tr>
               <tr>
                 <td class="first">Расширение проёма (бетон, монолит)</td>
-                <td class="second">от 1300  руб.</td>
+                <td class="second"><span>от 530  руб.</span></td>
               </tr>
               <tr>
                 <td class="first">Распил наличника</td>
-                <td class="second">от 1300  руб.</td>
+                <td class="second"><span>от 50 руб.</span></td>
               </tr>
               <tr>
                 <td class="first">Установка доводчика</td>
-                <td class="second">от 1300  руб.</td>
+                <td class="second"><span>от 500  руб.</span></td>
               </tr>
             </tbody>
           </table>
@@ -577,7 +577,7 @@
 
       <div class="col-xs-offset-1 col-xs-9">
         <div class="wrapper-table last">
-          <table class="table table-striped">
+          <table class="table">
             <thead>
               <tr>
                 <th colspan="2">Акция на установку металлических дверей</th>
@@ -586,15 +586,15 @@
             <tbody>
               <tr>
                 <td class="first">Установка 2-х дверей</td>
-                <td class="second">скидка 5%</td>
+                <td class="second"><span>скидка 5%</span></td>
               </tr>
               <tr>
                 <td class="first">Установка 3-4 дверей</td>
-                <td class="second">скидка 10%</td>
+                <td class="second"><span>скидка 10%</span></td>
               </tr>
               <tr>
                 <td class="first">Установка 5-ти дверей и более</td>
-                <td class="second">скидка 15%</td>
+                <td class="second"><span>скидка 15%</span></td>
               </tr>
             </tbody>
           </table>
@@ -614,18 +614,21 @@
               <img src="./image/work-egg-01.png">
           </div>
           <div class="desc">Вы оставляете заявку<br /> на сайте</div>
+          <div class="image-arrow"></div>
       </div>
       <div class="col-xs-3 wrapper-work-egg">
           <div class="image">
               <img src="./image/work-egg-02.png">
           </div>
           <div class="desc">Мы перезваниваем<br /> в течение 1 минуты</div>
+          <div class="image-arrow"></div>
       </div>
       <div class="col-xs-3 wrapper-work-egg">
           <div class="image">
               <img src="./image/work-egg-03.png">
           </div>
           <div class="desc">Наш мастер приезжает<br /> через 1 час</div>
+          <div class="image-arrow"></div>
       </div>
       <div class="col-xs-3 wrapper-work-egg">
           <div class="image">
@@ -661,21 +664,30 @@
             </div>
             <div class="item">
               <div class="image">
-                <img src="./image/reviews-01.jpg">
+                <img src="./image/reviews-02.jpg">
               </div>
               <div class="desc">
-                <p>Среди большого количества предложений, отобрал, на мой взгляд, пару более компетентных компаний. Оставил им заявки, первым отреагировали «Фирма», с ними и начал работать. Все предметно обсудили, и в тот же день дверь уже была установлена. Результатом доволен, теперь советую знакомым.</p>
+                <p>Мы делали срочный предпродажный ремонт в квартире, и сроки для нас были очень важны. Двери установили очень качественно, без проблем и переделок. Отличный вариант для тех, кому нужно установить двери быстро и по приемлемой цене, да и вообще хорошая фирма.</p>
               </div>
-              <div class="autor">Михаил, предприниматель</div>
+              <div class="autor">Максим, риэлтор</div>
             </div>
             <div class="item">
               <div class="image">
-                <img src="./image/reviews-01.jpg">
+                <img src="./image/reviews-03.jpg">
               </div>
               <div class="desc">
-                <p>Среди большого количества предложений, отобрал, на мой взгляд, пару более компетентных компаний. Оставил им заявки, первым отреагировали «Фирма», с ними и начал работать. Все предметно обсудили, и в тот же день дверь уже была установлена. Результатом доволен, теперь советую знакомым.</p>
+                <p>Не было времени искать тех, кто поставит мне двери, решила найти мастера через интернет. Высыпалось КУЧА предложений, посмотрела на отзывы — позвонила и НИ ЧУТОЧКИ не прогадала! Заменили все двери в 4-х комнатной квартире, со скидками получилась очень хорошая экономия. Теперь советую всем моим подругам.</p>
               </div>
-              <div class="autor">Михаил, предприниматель</div>
+              <div class="autor">Светлана, руководитель</div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img src="./image/reviews-04.jpg">
+              </div>
+              <div class="desc">
+                <p>В свой загородный дом я решила поставить новые двери. Дошло дело до установки, но муж постоянно был занят. Попробовала поработать с несколькими компаниями: одни обсчитали, других ждала весь день. Обратилась в «Фирма» — в тот же день приехал приятный молодой человек, который сделал мне все, как я хотела. Никаких ошибок в установке муж не нашел (сам строитель).</p>
+              </div>
+              <div class="autor">Ирина, педагог</div>
             </div>
           </div>
         </div>
@@ -760,9 +772,9 @@
       </div>
       <div class="col-xs-5">
         <nav>
-          <a href="#">Как мы работаем</a>
-          <a href="#">Цены</a>
-          <a href="#">Отзывы о нас</a>
+          <a href="#section-work" class="scroll">Как мы работаем</a>
+          <a href="#section-price" class="scroll">Цены</a>
+          <a href="#section-reviews" class="scroll">Отзывы о нас</a>
         </nav>
       </div>
       <div class="col-xs-4">
@@ -849,6 +861,34 @@
       </div>
     </div>
   </footer>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter26199870 = new Ya.Metrika({id:26199870,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/26199870" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 
 </body>
 </html>
