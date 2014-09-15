@@ -1,9 +1,13 @@
+<?php
+  header('Content-Type: text/html; charset=utf-8')
+?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
   <title>Установка дверей межкомнатных и входных</title>
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <!-- Bootstrap -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
