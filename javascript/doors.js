@@ -7,6 +7,7 @@
 jQuery(function(){
 
   $(window).load(function(){
+
     if($('#map').length>0){
       var log = 60.602092;
       var lat = 56.831718;

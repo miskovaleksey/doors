@@ -75,7 +75,7 @@
                 <div class="form">
                   <form action="mailer.php"
                         method="post"
-                        data-metrika-goal="#">
+                        data-metrika-goal="headerform">
                   <input name="order[форма]"
                          value="Акция"
                         type="hidden"/>
@@ -149,7 +149,7 @@
           <div class="form">
             <form action="mailer.php"
                   method="post"
-                  data-metrika-goal="#">
+                  data-metrika-goal="mainform">
             <input name="order[форма]"
                    value="Акция"
                    type="hidden"/>
@@ -397,7 +397,7 @@
                 <div class="form">
                   <form action="mailer.php"
                         method="post"
-                        data-metrika-goal="#">
+                        data-metrika-goal="price1form">
                   <input name="order[форма]"
                          value="Акция"
                          type="hidden"/>
@@ -525,7 +525,7 @@
                 <div class="form">
                   <form action="mailer.php"
                         method="post"
-                        data-metrika-goal="#">
+                        data-metrika-goal="price2form">
                   <input name="order[форма]"
                          value="Акция"
                          type="hidden"/>
@@ -711,7 +711,7 @@
           <div class="form">
             <form action="mailer.php"
                   method="post"
-                  data-metrika-goal="#">
+                  data-metrika-goal="mapform">
             <input name="order[форма]"
                    value="Акция"
                    type="hidden"/>
@@ -806,7 +806,7 @@
                 <div class="form">
                   <form action="mailer.php"
                         method="post"
-                        data-metrika-goal="#">
+                        data-metrika-goal="footerform">
                   <input name="order[форма]"
                          value="Акция"
                          type="hidden"/>

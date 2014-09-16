@@ -40,7 +40,7 @@ $('body').on('submit','form',function(e){
       data: form.serialize(),
       success: function(){
         try{
-          yaCounter.reachGoal(form.attr('data-metrika-goal'));
+          yaCounter26199870.reachGoal(form.attr('data-metrika-goal'));
         }catch(e){}
 
         form.addClass('success');
