@@ -32,9 +32,9 @@ $mail->CharSet = 'UTF-8';
 
 $mail->From = 'bilder.lead1@yandex.ru';
 $mail->FromName = 'Mailer';
-$mail->addAddress('miskovaleksey@gmail.com');
-$mail->addAddress('nheartnett@gmail.com');
 $mail->addAddress('bilder.lead2@yandex.ru');
+$mail->addAddress('nheartnett@gmail.com');
+$mail->addAddress('miskovaleksey@gmail.com');
 
 $mail->WordWrap = 50;                                 // Set word wrap to 50
 $mail->isHTML(true);                                  // Set email format to
