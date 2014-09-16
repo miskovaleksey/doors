@@ -39,7 +39,7 @@ $mail->addAddress('bilder.lead2@yandex.ru');
 $mail->WordWrap = 50;                                 // Set word wrap to 50
 $mail->isHTML(true);                                  // Set email format to
 
-$mail->Subject = 'Установка дверей», перезвонить СРОЧНО !!!';
+$mail->Subject = 'Заявка на «Установка дверей», перезвонить СРОЧНО !!!';
 $mail->Body    = $body;
 
 if(!$mail->send()) {
