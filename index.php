@@ -68,7 +68,7 @@
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title">Оставьте заявку на установку дверей</h4>
+                <h4 class="modal-title">Заказать обраный звонок</h4>
               </div>
               <div class="modal-body">
               <!-- FORM -->
@@ -80,7 +80,7 @@
                          value="Акция"
                         type="hidden"/>
                     <div class="cont">
-                      <p>Мы перезвоним в течении 1 минуты</p>
+                      <!-- <p>Мы перезвоним в течении 1 минуты</p> -->
                       <div class="fields">
                         <div class="form-group">
                           <input type="text"
@@ -390,7 +390,7 @@
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title">Оставьте заявку на установку дверей</h4>
+                <h4 class="modal-title">Оставьте заявку, чтобы<br /> узнать полный перечень услуг</h4>
               </div>
               <div class="modal-body">
               <!-- Form -->
@@ -519,7 +519,7 @@
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title">Оставьте заявку на установку дверей</h4>
+                <h4 class="modal-title">Оставьте заявку, чтобы<br /> узнать полный перечень услуг</h4>
               </div>
               <div class="modal-body">
                 <div class="form">
@@ -800,7 +800,7 @@
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title">Оставьте заявку на установку дверей</h4>
+                <h4 class="modal-title">Заказать обраный звонок</h4>
               </div>
               <div class="modal-body">
                 <div class="form">
@@ -812,7 +812,7 @@
                          type="hidden"/>
 
                     <div class="cont">
-                      <p>Мы перезвоним в течении 1 минуты</p>
+                      <!-- <p>Мы перезвоним в течении 1 минуты</p> -->
                       <div class="fields">
                         <div class="form-group">
                           <input type="text"

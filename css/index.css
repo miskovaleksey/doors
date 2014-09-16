@@ -132,6 +132,7 @@ body a.arrow-up.fixed {
 /*Popup*/
 /*=============================*/
 body .modal-dialog {
+  width: 450px;
 }
 body .modal-dialog .modal-content {
   text-align: center;
