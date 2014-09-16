@@ -317,7 +317,7 @@
               </tr>
               <tr>
                 <td class="first">Монтаж двустворчатой двери</td>
-                <td class="second"><span>от 2300 руб.</span></td>
+                <td class="second"><span>2300 руб.</span></td>
               </tr>
               <tr>
                 <td class="first">Монтаж сборной арки</td>
