@@ -49,7 +49,7 @@
       </div>
       <div class="col-xs-4">
         <div class="wrapper-contact">
-          <div class="phone">+7 (343) 266 45 10</div>
+          <div class="phone">+7 (343) 351 05 01</div>
           <a href="#"
            class="button"
            data-toggle="modal"
@@ -781,7 +781,7 @@
       </div>
       <div class="col-xs-4">
         <div class="wrapper-contact">
-          <div class="phone">+7 (343) 266-45-10</div>
+          <div class="phone">+7 (343) 351 05 01</div>
           <a href="#"
            class="button"
            data-toggle="modal"
