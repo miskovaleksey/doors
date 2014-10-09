@@ -109,15 +109,19 @@
     border-bottom: 2px solid #f7780e;
     box-shadow: inset 0px 1px 2px #000;
 }
-
+@media (min-width: 768px) and (max-width: 992px) {
+  .button{
+    font-size: 15px;
+  }
+}
 body{
-   min-width: 1200px;
+   min-width: 768px;
    width: auto !important;
-   width:1200px;
+   width:768px;
    font-family: 'Neris', sans-serif;
 }
 .container{
-    min-width: 1200px !important;
+    min-width: 768px !important;
 }
 body  a.arrow-up {
   display: none;
@@ -205,6 +209,11 @@ body header .image img{
   margin-left: 35px;
   max-width: 100%;
 }
+@media (min-width: 768px) and (max-width: 992px) {
+  body header .image img{
+    margin-left: 0;
+  }
+}
 body header nav{
   line-height: normal;
   display: block;
@@ -218,11 +227,26 @@ body header nav a{
   display: inline-block;
   border-right: 1px solid #452b2b;
   padding-right: 28px;
-  margin-left: 28px;
+  margin-left: 25px;
   padding-top: 12px;
   padding-bottom: 10px;
   color:#303030;
 }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  body header nav a {
+    margin-left: 12px;
+    padding-right: 12px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  body header nav a {
+    font-size: 11px;
+    margin-left: 8px;
+    padding-right: 8px;
+  }
+}
+
 body header nav a:nth-last-child(1){
   margin-right: 0;
   border: none;
@@ -231,12 +255,12 @@ body header nav a:hover, a:focus{
   color: #e49116;
   text-decoration: none;
 }
-/*@media (min-width: 768px and max-width: 992px) {
+@media (min-width: 768px and max-width: 992px) {
   body header nav a{
     padding-right: 10px !important;
     margin-left: 10px !important;
   }
-}*/
+}
 
 body header .wrapper-contact{
   line-height: normal;
@@ -249,6 +273,11 @@ body header .wrapper-contact .phone{
   font-size: 25.7px;
   margin-bottom: 16px;
   letter-spacing: 0.6px;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  body header .wrapper-contact .phone{
+    font-size: 24.7px;
+  }
 }
 /*=============================*/
 /*hero*/
