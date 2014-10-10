@@ -145,110 +145,115 @@
   <a href="#section-main" class="arrow-up scroll"></a>
 
   <section class="hero" id="section-hero">
-    <div class="container">
-      <div class="col-xs-4">
-        <div class="image">
-          <img src="./image/hero-element.png">
+    <div class="wrapper-hero">
+      <div class="container">
+        <div class="col-xs-4">
+          <div class="image">
+            <img src="./image/hero-element.png">
+          </div>
         </div>
-      </div>
-      <div class="col-xs-8">
-        <div class="wrapper">
-          <h1>Установка дверей
-          <b>межкомнатных и входных</b>
-          <span>в Екатеринбурге!</span></h1>
-          <!-- Form -->
-          <div class="form">
-            <form action="mailer.php"
-                  method="post"
-                  data-metrika-goal="mainform">
-            <input name="order[форма]"
-                   value="Акция"
-                   type="hidden"/>
-              <div class="cont">
-                <h1>Оставьте заявку на<br /> установку дверей</h1>
-                <p>Мы перезвоним в течении 1 минуты</p>
-                <div class="fields">
-                  <div class="form-group">
-                    <input type="text"
-                           class="text"
-                           name="order[имя]"
-                           placeholder="Ваше имя"
-                           data-required="true"
-                           data-name="Имя"
-                           />
-                    <div class="error"></div>
+        <div class="col-xs-8">
+          <div class="wrapper">
+            <h1>Установка дверей
+            <b>межкомнатных и входных</b>
+            <span>в Екатеринбурге!</span></h1>
+            <!-- Form -->
+            <div class="form">
+              <form action="mailer.php"
+                    method="post"
+                    data-metrika-goal="mainform">
+              <input name="order[форма]"
+                     value="Акция"
+                     type="hidden"/>
+                <div class="cont">
+                  <h1>Оставьте заявку на<br /> установку дверей</h1>
+                  <p>Мы перезвоним в течении 1 минуты</p>
+                  <div class="fields">
+                    <div class="form-group">
+                      <input type="text"
+                             class="text"
+                             name="order[имя]"
+                             placeholder="Ваше имя"
+                             data-required="true"
+                             data-name="Имя"
+                             />
+                      <div class="error"></div>
+                    </div>
+                    <div class="form-group">
+                      <input type="text"
+                             class="text"
+                             name="order[телефон]"
+                             placeholder="Контактный телефон"
+                             data-required="true"
+                             data-name="Телефон"
+                            />
+                      <div class="error"></div>
+                    </div>
                   </div>
-                  <div class="form-group">
-                    <input type="text"
-                           class="text"
-                           name="order[телефон]"
-                           placeholder="Контактный телефон"
-                           data-required="true"
-                           data-name="Телефон"
-                          />
-                    <div class="error"></div>
+                  <div class="buttons form-group">
+                    <input type="submit"
+                           class="submit button"
+                           value="Позвонить мне!" />
                   </div>
+                  <div class="clearfix"></div>
                 </div>
-                <div class="buttons form-group">
-                  <input type="submit"
-                         class="submit button"
-                         value="Позвонить мне!" />
+                <div class="loader">
+                  <div class="spiner"></div>
+                  <div>Отправка формы</div>
                 </div>
-                <div class="clearfix"></div>
+                <div class="success">
+                  <div class="head">Спасибо,<br /> Ваша заявка отправлена</div>
+                  <div class="txt">В ближайшее время мы свяжемся с вами</div>
+                </div>
+              </form>
+            </div>
+            <!-- End Form -->
+            <div class="lists">
+              <ul>
+                <li>Вы экономите<br /> до 3 000 рублей.</li>
+                <li>Без очередей.</li>
+              </ul>
+              <img src="./image/arrow-right.png">
+            </div>
+            <a href="#scroll-eggs" class="scroll">
+              <div class="note">
+                <p class="desc">А так же</p>
+                <img src="./image/arrow-down.png">
               </div>
-              <div class="loader">
-                <div class="spiner"></div>
-                <div>Отправка формы</div>
-              </div>
-              <div class="success">
-                <div class="head">Спасибо,<br /> Ваша заявка отправлена</div>
-                <div class="txt">В ближайшее время мы свяжемся с вами</div>
-              </div>
-            </form>
-          </div>
-          <!-- End Form -->
-          <div class="lists">
-            <ul>
-              <li>Вы экономите<br /> до 3 000 рублей.</li>
-              <li>Без очередей.</li>
-            </ul>
-            <img src="./image/arrow-right.png">
-          </div>
-          <div class="note">
-            <p class="desc">А так же</p>
-            <img src="./image/arrow-down.png">
+            </a>
           </div>
         </div>
       </div>
     </div>
+    <div class="clearfix"></div>
     <!-- Hero-Eggs -->
     <div class="container">
-      <div class="wrapper-eggs">
-        <div class="col-xs-2">
+      <div class="wrapper-eggs" id="scroll-eggs">
+        <div class="col-xs-2 wrapper-egg">
           <div class="egg">
             <img src="./image/hero-egg-01.png">
             <p class="desc">Демонтаж <br />старой двери</p>
           </div>
         </div>
-        <div class="col-xs-2">
+        <div class="col-xs-2 wrapper-egg">
           <div class="egg">
             <img src="./image/hero-egg-02.png">
             <p class="desc">Расширение <br />и сужение проёмов</p>
           </div>
         </div>
-        <div class="col-xs-2">
+        <div class="col-xs-2 wrapper-egg">
           <div class="egg">
             <img src="./image/hero-egg-03.png">
             <p class="desc">Установка <br />замков</p>
           </div>
         </div>
-        <div class="col-xs-2">
+        <div class="col-xs-2 wrapper-egg">
           <div class="egg">
             <img src="./image/hero-egg-04.png">
             <p class="desc">Установка <br />доборов</p>
           </div>
         </div>
-        <div class="col-xs-2">
+        <div class="col-xs-2 wrapper-egg">
           <div class="egg">
             <img src="./image/hero-egg-05.png">
             <p class="desc">Вывоз мусора</p>
@@ -264,13 +269,13 @@
       <div class="col-xs-12 col-md-offset-2 col-md-10"><h1>Почему выбирают нас</h1></div>
     </div>
 
-    <div class="container">
-      <div class="col-xs-3">
+    <div class="container egg" id="egg-style-1">
+      <div class="col-md-3 col-xs-4">
         <div class="image">
           <img src="./image/egg-01.png">
         </div>
       </div>
-      <div class="col-xs-6">
+      <div class="col-md-6 col-xs-7">
         <div class="desc">
           <h2>Скорость</h2>
           <p class="text">Без очередей. Мастер установит ваши двери в день обращения.</p>
@@ -278,13 +283,13 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class="col-xs-3">
+    <div class="container egg" id="egg-style-2">
+      <div class="col-md-3 col-xs-4">
         <div class="image">
           <img src="./image/egg-02.png">
         </div>
       </div>
-      <div class="col-xs-6">
+      <div class="col-md-6 col-xs-7">
         <div class="desc">
           <h2>Качество</h2>
           <p class="text">У нас работают только профессиональные мастера
@@ -293,16 +298,16 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="col-xs-3">
+    <div class="container egg" id="egg-style-3">
+      <div class="col-md-3 col-xs-4">
         <div class="image">
           <img src="./image/egg-03.png">
         </div>
       </div>
-      <div class="col-xs-6">
+      <div class="col-md-6 col-xs-7">
         <div class="desc">
           <h2>Стоимость</h2>
-          <p class="text">Экономия до 3000 руб. в сравнении с другими фирмами.</p>
+          <p class="text">Экономия до 3000 руб. в сравнении с ценами на установку в салонах дверей.</p>
         </div>
       </div>
     </div>
@@ -310,7 +315,7 @@
 
   <section class="price" id="section-price">
     <div class="container">
-      <div class="col-xs-offset-1 col-xs-9">
+      <div class="col-lg-offset-1 col-lg-9 col-xs-12">
         <h1>Цены на установку дверей</h1>
       </div>
       <div class="col-xs-offset-1 col-xs-9">
@@ -381,7 +386,7 @@
         </div>
       </div>
       <div class="clearfix"></div>
-      <div class="col-xs-offset-3 col-cd-5">
+      <div class="col-lg-offset-3 col-lg-4 col-md-offset-2 col-md-5 col-xs-offset-1 col-xs-7">
           <a href="#"
            class="button"
            data-toggle="modal"
@@ -468,41 +473,25 @@
   <section class="price gray" id="section-price-gray">
     <div class="container">
       <div class="col-xs-offset-1 col-xs-9">
-        <div class="wrapper-table">
+        <div class="wrapper-table last">
           <table class="table">
             <thead>
               <tr>
-                <th colspan="2">Входные двери</th>
+                <th colspan="2">Акция на установку металлических дверей</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td class="first">Монтаж металлической двери</td>
-                <td class="second"><span>от 1500 руб.</span></td>
+                <td class="first">Установка 2-х дверей</td>
+                <td class="second"><span>скидка 15%</span></td>
               </tr>
               <tr>
-                <td class="first">Демонтаж металлической двери</td>
-                <td class="second"><span>300  руб.</span></td>
+                <td class="first">Установка 3-4 дверей</td>
+                <td class="second"><span>скидка 15%</span></td>
               </tr>
               <tr>
-                <td class="first">Демонтаж заливной металлической рамы</td>
-                <td class="second"><span>2000 руб.</span></td>
-              </tr>
-              <tr>
-                <td class="first">Расширение проёма (кирпич, гипс)</td>
-                <td class="second"><span>от 500  руб.</span></td>
-              </tr>
-              <tr>
-                <td class="first">Расширение проёма (бетон, монолит)</td>
-                <td class="second"><span>от 530  руб.</span></td>
-              </tr>
-              <tr>
-                <td class="first">Распил наличника</td>
-                <td class="second"><span>от 50 руб.</span></td>
-              </tr>
-              <tr>
-                <td class="first">Установка доводчика</td>
-                <td class="second"><span>от 500  руб.</span></td>
+                <td class="first">Установка 5-ти дверей и более</td>
+                <td class="second"><span>скидка 20%</span></td>
               </tr>
             </tbody>
           </table>
@@ -510,7 +499,7 @@
       </div>
 
       <div class="clearfix"></div>
-      <div class="col-xs-offset-3 col-cd-5">
+       <div class="col-lg-offset-3 col-lg-4 col-md-offset-2 col-md-5 col-xs-offset-1 col-xs-7">
         <a href="#"
          class="button"
          data-toggle="modal"
@@ -586,32 +575,48 @@
           </div>
         </div>
 
-
       <div class="col-xs-offset-1 col-xs-9">
-        <div class="wrapper-table last">
+        <div class="wrapper-table">
           <table class="table">
             <thead>
               <tr>
-                <th colspan="2">Акция на установку металлических дверей</th>
+                <th colspan="2">Входные двери</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td class="first">Установка 2-х дверей</td>
-                <td class="second"><span>скидка 5%</span></td>
+                <td class="first">Монтаж металлической двери</td>
+                <td class="second"><span>от 1500 руб.</span></td>
               </tr>
               <tr>
-                <td class="first">Установка 3-4 дверей</td>
-                <td class="second"><span>скидка 10%</span></td>
+                <td class="first">Демонтаж металлической двери</td>
+                <td class="second"><span>300  руб.</span></td>
               </tr>
               <tr>
-                <td class="first">Установка 5-ти дверей и более</td>
-                <td class="second"><span>скидка 15%</span></td>
+                <td class="first">Демонтаж заливной металлической рамы</td>
+                <td class="second"><span>2000 руб.</span></td>
+              </tr>
+              <tr>
+                <td class="first">Расширение проёма (кирпич, гипс)</td>
+                <td class="second"><span>от 500  руб.</span></td>
+              </tr>
+              <tr>
+                <td class="first">Расширение проёма (бетон, монолит)</td>
+                <td class="second"><span>от 530  руб.</span></td>
+              </tr>
+              <tr>
+                <td class="first">Распил наличника</td>
+                <td class="second"><span>от 50 руб.</span></td>
+              </tr>
+              <tr>
+                <td class="first">Установка доводчика</td>
+                <td class="second"><span>от 500  руб.</span></td>
               </tr>
             </tbody>
           </table>
         </div>
       </div>
+
 
     </div>
   </section>
@@ -619,30 +624,30 @@
   <section class="work" id="section-work">
     <div class="container">
 
-      <div class="col-md-offset-2 col-md-8"><h1>Как мы работаем</h1></div>
+      <div class="col-lg-offset-2 col-lg-8 col-xs-offset-1 col-xs-11"><h1>Как мы работаем</h1></div>
 
-      <div class="col-xs-3 wrapper-work-egg">
+      <div class="col-lg-3 col-md-2 col-xs-6 wrapper-work-egg">
           <div class="image">
               <img src="./image/work-egg-01.png">
           </div>
           <div class="desc">Вы оставляете заявку<br /> на сайте</div>
           <div class="image-arrow"></div>
       </div>
-      <div class="col-xs-3 wrapper-work-egg">
+      <div class="col-lg-3 col-md-2 col-xs-6 wrapper-work-egg">
           <div class="image">
               <img src="./image/work-egg-02.png">
           </div>
           <div class="desc">Мы перезваниваем<br /> в течение 1 минуты</div>
           <div class="image-arrow"></div>
       </div>
-      <div class="col-xs-3 wrapper-work-egg">
+      <div class="col-lg-3 col-md-2 col-xs-6 wrapper-work-egg">
           <div class="image">
               <img src="./image/work-egg-03.png">
           </div>
           <div class="desc">Наш мастер приезжает<br /> через 1 час</div>
           <div class="image-arrow"></div>
       </div>
-      <div class="col-xs-3 wrapper-work-egg">
+      <div class="col-lg-3 col-md-2 col-xs-6 wrapper-work-egg">
           <div class="image">
               <img src="./image/work-egg-04.png">
           </div>
@@ -655,10 +660,11 @@
   <section class="reviews" id="section-reviews">
     <div class="container">
 
-      <div class="col-md-offset-1 col-md-9">
+      <div class="col-lg-offset-1 col-lg-9 col-xs-10 col-xs-offset-1 ">
         <h1>Отзывы о нашей работе</h1>
       </div>
-      <div class="col-xs-9 col-xs-offset-1 carusel">
+      <div class="clearfix"></div>
+      <div class="col-lg-9 col-lg-offset-1 col-xs-offset-1 col-xs-10 carusel">
         <div class="links">
           <a href="#" class="arrow left"></a>
         </div>
@@ -670,7 +676,7 @@
                 <img src="./image/reviews-01.jpg">
               </div>
               <div class="desc">
-                <p>Среди большого количества предложений, отобрал, на мой взгляд, пару более компетентных компаний. Оставил им заявки, первым отреагировали «Фирма», с ними и начал работать. Все предметно обсудили, и в тот же день дверь уже была установлена. Результатом доволен, теперь советую знакомым.</p>
+                <p>Среди большого количества предложений, отобрал, на мой взгляд, пару более компетентных компаний. Оставил им заявки, первым отреагировали «Билдер», с ними и начал работать. Все предметно обсудили, и в тот же день дверь уже была установлена. Результатом доволен, теперь советую знакомым.</p>
               </div>
               <div class="autor">Михаил, предприниматель</div>
             </div>
