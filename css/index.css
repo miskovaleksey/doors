@@ -250,8 +250,8 @@ body header nav a{
 @media (min-width: 0px) and (max-width: 992px) {
   body header nav a {
     font-size: 11px;
-    margin-left: 8px;
-    padding-right: 8px;
+    margin-left: 7px;
+    padding-right: 7px;
   }
 }
 
@@ -1309,8 +1309,8 @@ body footer nav a{
 @media (min-width: 0px) and (max-width: 992px) {
   body footer nav a {
     font-size: 11px;
-    margin-left: 8px;
-    padding-right: 8px;
+    margin-left: 7px;
+    padding-right: 7px;
   }
 }
 
