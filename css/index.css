@@ -1047,46 +1047,40 @@ body .reviews h1 {
     }
 }
 
-body .reviews .carusel {
+body .reviews .carousel {
   position: relative;
   margin-top: 40px;
 }
-body .reviews .carusel .links a {
+body .reviews .carousel .links a {
   position: absolute;
   top: 59px;
   display: inline-block;
   width: 66px;
   height: 51px;
 }
-body .reviews .carusel .links .left {
+body .reviews .carousel .links .left {
   left: -76px;
   background: url('../image/carusel-arrow-left.png') no-repeat 0 0;
 }
-body .reviews .carusel .links .right {
+body .reviews .carousel .links .right {
   right: -76px;
   background: url('../image/carusel-arrow-right.png') no-repeat 0 0;
 }
-body .reviews .carusel .viewport {
-  overflow: hidden;
-  width: 825px;
-}
-@media (min-width: 0px) and (max-width: 1200px) {
-  body .reviews .carusel .viewport {
-    width: 100%;
-  }
-}
 
-body .reviews .carusel .viewport .wrapper {
-  font-size: 0;
-  width:2475px;
-}
-body .reviews .carusel .viewport .wrapper .item {
-  display: inline-block;
+body .reviews .carousel .carousel-inner .item {
   font-size: 16px;
-  padding-top: 15px;
   vertical-align: top;
+  height: 257px;
 }
-body .reviews .carusel .viewport .wrapper .item .image {
+body .reviews .carousel .carousel-inner .carousel-caption {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  left:0;
+  padding-top: 24px;
+  padding-bottom: 0;
+}
+body .reviews .carousel .carousel-inner .item .image {
   display: inline-block;
   width: 173px;
   height: 205px;
@@ -1095,48 +1089,51 @@ body .reviews .carusel .viewport .wrapper .item .image {
   box-shadow: 10px 10px 0px 0px #fff;
 }
 @media (min-width: 0px) and (max-width: 1200px) {
-  body .reviews .carusel .viewport .wrapper .item .image {
+  body .reviews .carousel .carousel-inner .item .image {
     margin-left: 70px;
   }
 }
 @media (min-width: 0px) and (max-width: 991px) {
-    body .reviews .carusel .viewport .wrapper .item .image {
+    body .reviews .carousel .carousel-inner .item .image {
       width: 130px;
       height: auto;
     }
 }
 
-body .reviews .carusel .viewport .wrapper .item .image img {
+body .reviews .carousel .carousel-inner .item .image img {
   max-width: 100%;
 }
-body .reviews .carusel .viewport .wrapper .item .desc {
+body .reviews .carousel .carousel-inner .item .desc {
   display: inline-block;
   margin-left: 40px;
   margin-top: -5px;
   vertical-align: top;
   width: 60%;
+  color: #000;
+  text-align: left;
+  text-shadow: none;
 }
 @media (min-width: 0px) and (max-width: 991px) {
-  body .reviews .carusel .viewport .wrapper .item .desc {
+  body .reviews .carousel .carousel-inner .item .desc {
     margin-top: 0px;
     margin-left: 30px;
   }
 }
 
-body .reviews .carusel .viewport .wrapper .item .desc p {
+body .reviews .carousel .carousel-inner .item .desc p {
   font-size: 18px;
   font-weight: 200;
   letter-spacing: 0.9px;
   line-height: 22px;
 }
 @media (min-width: 0px) and (max-width: 991px) {
-  body .reviews .carusel .viewport .wrapper .item .desc p {
+  body .reviews .carousel .carousel-inner .item .desc p {
     font-size: 14px;
     line-height: 16px;
   }
 }
 
-body .reviews .carusel .viewport .wrapper .item .autor{
+body .reviews .carousel .carousel-inner .item .autor{
   margin-top: -11px;
   padding: 15px 15px 15px 306px;
   background: url('../image/carusel-autor-bg.png') no-repeat 0 0;
@@ -1147,7 +1144,7 @@ body .reviews .carusel .viewport .wrapper .item .autor{
   letter-spacing: 1px;
 }
 @media (min-width: 0px) and (max-width: 991px) {
-  body .reviews .carusel .viewport .wrapper .item .autor{
+  body .reviews .carousel .carousel-inner .item .autor{
     margin-top: 0px;
      /*padding: 0px 15px 0px 306px;*/
      font-size: 16px;

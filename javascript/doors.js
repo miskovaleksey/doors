@@ -33,7 +33,10 @@ jQuery(function(){
     $('#popup').modal('show');
   })
 
-  new Carousel('#section-reviews .carusel');
+  // new Carousel('#section-reviews .carusel');
+
+  //$('.carousel').carousel();
+  //$('.carousel').carousel('pause');
 
   function installMap(lat, log){
     var coords = [lat,log];

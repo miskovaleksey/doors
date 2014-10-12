@@ -35,7 +35,7 @@ Carousel.prototype = {
   },
 
   moveTo: function(index){
-    console.log(' before index ', index);
+    // console.log(' before index ', index);
     if(index < 0)
       index = this.count-1;
 

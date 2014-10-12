@@ -664,7 +664,85 @@
         <h1>Отзывы о нашей работе</h1>
       </div>
       <div class="clearfix"></div>
-      <div class="col-lg-9 col-lg-offset-1 col-xs-offset-1 col-xs-10 carusel">
+      <div class="col-lg-9 col-lg-offset-1 col-xs-offset-1 col-xs-10">
+        <div id="carousel-example-generic" class="carousel slide" data-pause="true">
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="carousel-caption">
+                <div class="image">
+                  <img src="./image/reviews-01.jpg">
+                </div>
+                <div class="desc">
+                  <p>Среди большого количества предложений, отобрал, на мой взгляд, пару более компетентных компаний. Оставил им заявки, первым отреагировали «Билдер», с ними и начал работать. Все предметно обсудили, и в тот же день дверь уже была установлена. Результатом доволен, теперь советую знакомым.
+                  </p>
+                </div>
+                <div class="autor">Михаил, предприниматель</div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="carousel-caption">
+                <div class="image">
+                  <img src="./image/reviews-02.jpg">
+                </div>
+                <div class="desc">
+                  <p>Мы делали срочный предпродажный ремонт в квартире, и сроки для нас были очень важны. Двери установили очень качественно, без проблем и переделок. Отличный вариант для тех, кому нужно установить двери быстро и по приемлемой цене, да и вообще хорошая фирма.</p>
+                </div>
+                <div class="autor">Максим, риэлтор</div>
+                </div>
+            </div>
+            <div class="item">
+              <div class="carousel-caption">
+                <div class="image">
+                  <img src="./image/reviews-03.jpg">
+                </div>
+                <div class="desc">
+                  <p>Не было времени искать тех, кто поставит мне двери, решила найти мастера через интернет. Высыпалось КУЧА предложений, посмотрела на отзывы — позвонила и НИ ЧУТОЧКИ не прогадала! Заменили все двери в 4-х комнатной квартире, со скидками получилась очень хорошая экономия. Теперь советую всем моим подругам.</p>
+                </div>
+                <div class="autor">Светлана, руководитель</div>
+                </div>
+            </div>
+           <div class="item">
+              <div class="carousel-caption">
+                <div class="image">
+                  <img src="./image/reviews-04.jpg">
+                </div>
+                <div class="desc">
+                  <p>В свой загородный дом я решила поставить новые двери. Дошло дело до установки, но муж постоянно был занят. Попробовала поработать с несколькими компаниями: одни обсчитали, других ждала весь день. Обратилась в «Билдер» — в тот же день приехал приятный молодой человек, который сделал мне все, как я хотела. Никаких ошибок в установке муж не нашел (сам строитель).</p>
+                </div>
+                <div class="autor">Ирина, педагог</div>
+                </div>
+            </div>
+
+          </div>
+
+          <!-- Controls -->
+          <div class="links">
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            </a>
+          </div>
+          <div class="links">
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--       <div class="col-lg-9 col-lg-offset-1 col-xs-offset-1 col-xs-10 carusel">
         <div class="links">
           <a href="#" class="arrow left"></a>
         </div>
@@ -713,7 +791,7 @@
         <div class="links">
           <a href="#" class="arrow right"></a>
         </div>
-      </div>
+      </div> -->
 
     </div>
   </section>
