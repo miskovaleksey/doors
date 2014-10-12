@@ -329,7 +329,7 @@
             <tbody>
               <tr>
                 <td class="first">Монтаж одностворчатой двери</td>
-                <td class="second"><span>от 1200 руб.</span></td>
+                <td class="second"><span>1450 руб.</span></td>
               </tr>
               <tr>
                 <td class="first">Монтаж двустворчатой двери</td>
@@ -586,7 +586,7 @@
             <tbody>
               <tr>
                 <td class="first">Монтаж металлической двери</td>
-                <td class="second"><span>от 1500 руб.</span></td>
+                <td class="second"><span>1950 руб.</span></td>
               </tr>
               <tr>
                 <td class="first">Демонтаж металлической двери</td>
