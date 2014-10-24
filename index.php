@@ -287,7 +287,7 @@
       <div class="col-md-6 col-xs-7">
         <div class="desc">
           <h2>Стоимость</h2>
-          <p class="text">Экономия до <span class="text-action">3000</span>  в сравнении с ценами на установку в салонах дверей.</p>
+          <p class="text">Экономия до <span class="text-action">3000</span> руб. в сравнении с ценами на установку в салонах дверей.</p>
         </div>
       </div>
     </div>
