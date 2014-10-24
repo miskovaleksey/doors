@@ -86,38 +86,27 @@
                 <div class="form">
                   <form action="mailer.php"
                         method="post"
-                        data-metrika-goal="headerform">
+                        data-metrika-goal="headerform"
+                        class="form-inline"
+                        >
                   <input name="order[форма]"
                          value="Акция"
                         type="hidden"/>
                     <div class="cont">
-                      <!-- <p>Мы перезвоним в течении 1 минуты</p> -->
-                      <div class="fields">
-                        <div class="form-group">
-                          <input type="text"
-                                 class="text"
-                                 name="order[имя]"
-                                 placeholder="Ваше имя"
-                                 data-required="true"
-                                 data-name="Имя"
-                                 />
-                          <div class="error"></div>
-                        </div>
-                        <div class="form-group">
-                          <input type="text"
-                                 class="text"
-                                 name="order[телефон]"
-                                 placeholder="Контактный телефон"
-                                 data-required="true"
-                                 data-name="Телефон"
-                                />
-                          <div class="error"></div>
-                        </div>
+                      <div class="form-group">
+                        <input type="text"
+                               class="text"
+                               name="order[телефон]"
+                               placeholder="Телефон"
+                               data-required="true"
+                               data-name="Телефон"
+                              />
+                        <div class="error"></div>
                       </div>
                       <div class="buttons form-group">
                         <input type="submit"
                                class="submit button"
-                               value="Позвонить мне!" />
+                               value="Оставить заявку" />
                       </div>
                       <div class="clearfix"></div>
                     </div>
@@ -172,18 +161,8 @@
                     <div class="form-group">
                       <input type="text"
                              class="text"
-                             name="order[имя]"
-                             placeholder="Ваше имя"
-                             data-required="true"
-                             data-name="Имя"
-                             />
-                      <div class="error"></div>
-                    </div>
-                    <div class="form-group">
-                      <input type="text"
-                             class="text"
                              name="order[телефон]"
-                             placeholder="Контактный телефон"
+                             placeholder="Телефон"
                              data-required="true"
                              data-name="Телефон"
                             />
@@ -193,7 +172,7 @@
                   <div class="buttons form-group">
                     <input type="submit"
                            class="submit button"
-                           value="Позвонить мне!" />
+                           value="Оставить заявку" />
                   </div>
                   <div class="clearfix"></div>
                 </div>
@@ -210,8 +189,9 @@
             <!-- End Form -->
             <div class="lists">
               <ul>
-                <li>Вы экономите<br /> до 3 000 рублей.</li>
-                <li>Без очередей.</li>
+                <!-- <li>Вы экономите<br /> до 3 000 рублей.</li> -->
+                <li>Монтаж дверей в день заказа</li>
+                <li>Мы работаем 7 дней в неделю</li>
               </ul>
               <img src="./image/arrow-right.png">
             </div>
@@ -294,7 +274,7 @@
           <h2>Качество</h2>
           <p class="text">У нас работают только профессиональные мастера
 с опытом работы более 5 лет.<br />
-100 %-ая гарантия качества работ или возврат денег.</p>
+<span class="text-action">100</span> %-ая гарантия качества работ или возврат денег.</p>
         </div>
       </div>
     </div>
@@ -307,7 +287,7 @@
       <div class="col-md-6 col-xs-7">
         <div class="desc">
           <h2>Стоимость</h2>
-          <p class="text">Экономия до 3000 руб. в сравнении с ценами на установку в салонах дверей.</p>
+          <p class="text">Экономия до <span class="text-action">3000</span>  в сравнении с ценами на установку в салонах дверей.</p>
         </div>
       </div>
     </div>
@@ -329,19 +309,19 @@
             <tbody>
               <tr>
                 <td class="first">Монтаж одностворчатой двери</td>
-                <td class="second"><span>1450 руб.</span></td>
+                <td class="second"><span>от 1470</span></td>
               </tr>
               <tr>
                 <td class="first">Монтаж двустворчатой двери</td>
-                <td class="second"><span>2300 руб.</span></td>
+                <td class="second"><span>от 2270</span></td>
               </tr>
               <tr>
                 <td class="first">Монтаж сборной арки</td>
-                <td class="second"><span>2300 руб.</span></td>
+                <td class="second"><span>2270</span></td>
               </tr>
               <tr>
                 <td class="first">Монтаж откосов</td>
-                <td class="second"><span>от 1300 руб.</span></td>
+                <td class="second"><span>от 1270</span></td>
               </tr>
             </tbody>
           </table>
@@ -359,27 +339,27 @@
             <tbody>
               <tr>
                 <td class="first">Установка добора (расширителя)</td>
-                <td class="second"><span>500 руб.</span></td>
+                <td class="second"><span>470</span></td>
               </tr>
               <tr>
                 <td class="first">Врезка замка</td>
-                <td class="second"><span>500 руб.</span></td>
+                <td class="second"><span>470</span></td>
               </tr>
               <tr>
                 <td class="first">Демонтаж двери</td>
-                <td class="second"><span>200 руб.</span></td>
+                <td class="second"><span>170</span></td>
               </tr>
               <tr>
                 <td class="first">Расширение проёма</td>
-                <td class="second"><span>от 400 руб.</span></td>
+                <td class="second"><span>от 370</span></td>
               </tr>
               <tr>
                 <td class="first">Сужение проёма</td>
-                <td class="second"><span>от 200 руб.</span></td>
+                <td class="second"><span>от 170</span></td>
               </tr>
               <tr>
                 <td class="first">Вынос мусора</td>
-                <td class="second"><span>300 руб.</span></td>
+                <td class="second"><span>270</span></td>
               </tr>
             </tbody>
           </table>
@@ -412,6 +392,7 @@
               <!-- Form -->
                 <div class="form">
                   <form action="mailer.php"
+                        class="form-inline"
                         method="post"
                         data-metrika-goal="price1form">
                   <input name="order[форма]"
@@ -420,32 +401,20 @@
 
                     <div class="cont">
                       <p>Мы перезвоним в течении 1 минуты</p>
-                      <div class="fields">
-                        <div class="form-group">
-                          <input type="text"
-                                 class="text"
-                                 name="order[имя]"
-                                 placeholder="Ваше имя"
-                                 data-required="true"
-                                 data-name="Имя"
-                                 />
-                          <div class="error"></div>
-                        </div>
                         <div class="form-group">
                           <input type="text"
                                  class="text"
                                  name="order[телефон]"
-                                 placeholder="Контактный телефон"
+                                 placeholder="Телефон"
                                  data-required="true"
                                  data-name="Телефон"
                                 />
                           <div class="error"></div>
                         </div>
-                      </div>
                       <div class="buttons form-group">
                         <input type="submit"
                                class="submit button"
-                               value="Позвонить мне!" />
+                               value="Оставить заявку" />
                       </div>
                       <div class="clearfix"></div>
                     </div>
@@ -477,7 +446,7 @@
           <table class="table">
             <thead>
               <tr>
-                <th colspan="2">Акция на установку дверей</th>
+                <th colspan="2">Акция на установку дверей до 31 октября</th>
               </tr>
             </thead>
             <tbody>
@@ -524,6 +493,7 @@
               <div class="modal-body">
                 <div class="form">
                   <form action="mailer.php"
+                        class="form-inline"
                         method="post"
                         data-metrika-goal="price2form">
                   <input name="order[форма]"
@@ -532,30 +502,18 @@
 
                     <div class="cont">
                       <p>Мы перезвоним в течении 1 минуты</p>
-                      <div class="fields">
-                        <div class="form-group">
-                          <input type="text"
-                                 class="text"
-                                 name="order[имя]"
-                                 placeholder="Ваше имя"
-                                 data-required="true"
-                                 data-name="Имя"
-                                 />
-                          <div class="error"></div>
-                        </div>
-                        <div class="form-group">
-                          <input type="text"
-                                 class="text"
-                                 name="order[телефон]"
-                                 placeholder="Контактный телефон"
-                                 data-required="true"
-                                 data-name="Телефон"
-                                />
-                          <div class="error"></div>
-                        </div>
+                      <div class="form-group">
+                        <input type="text"
+                               class="text"
+                               name="order[телефон]"
+                               placeholder="Телефон"
+                               data-required="true"
+                               data-name="Телефон"
+                              />
+                        <div class="error"></div>
                       </div>
                       <div class="buttons form-group">
-                        <input type="submit" class="submit button" value="Позвонить мне!" />
+                        <input type="submit" class="submit button" value="Оставить заявку" />
                       </div>
                       <div class="clearfix"></div>
                     </div>
@@ -586,31 +544,31 @@
             <tbody>
               <tr>
                 <td class="first">Монтаж металлической двери</td>
-                <td class="second"><span>1950 руб.</span></td>
+                <td class="second"><span>1970</span></td>
               </tr>
               <tr>
                 <td class="first">Демонтаж металлической двери</td>
-                <td class="second"><span>300  руб.</span></td>
+                <td class="second"><span>270</span></td>
               </tr>
               <tr>
                 <td class="first">Демонтаж заливной металлической рамы</td>
-                <td class="second"><span>2000 руб.</span></td>
+                <td class="second"><span>1970</span></td>
               </tr>
               <tr>
                 <td class="first">Расширение проёма (кирпич, гипс)</td>
-                <td class="second"><span>от 500  руб.</span></td>
+                <td class="second"><span>470</span></td>
               </tr>
               <tr>
                 <td class="first">Расширение проёма (бетон, монолит)</td>
-                <td class="second"><span>от 530  руб.</span></td>
+                <td class="second"><span>от 530</span></td>
               </tr>
               <tr>
                 <td class="first">Распил наличника</td>
-                <td class="second"><span>от 50 руб.</span></td>
+                <td class="second"><span>от 50 </span></td>
               </tr>
               <tr>
                 <td class="first">Установка доводчика</td>
-                <td class="second"><span>от 500  руб.</span></td>
+                <td class="second"><span>470</span></td>
               </tr>
             </tbody>
           </table>
@@ -805,6 +763,7 @@
         <div class="wrapper">
           <div class="form">
             <form action="mailer.php"
+                  class="form-inline"
                   method="post"
                   data-metrika-goal="mapform">
             <input name="order[форма]"
@@ -814,32 +773,20 @@
               <div class="cont">
                 <h1>Оставьте заявку на<br /> установку дверей</h1>
                 <p>Мы перезвоним в течении 1 минуты</p>
-                <div class="fields">
-                  <div class="form-group">
-                    <input type="text"
-                           class="text"
-                           name="order[имя]"
-                           placeholder="Ваше имя"
-                           data-required="true"
-                           data-name="Имя"
-                           />
-                    <div class="error"></div>
-                  </div>
-                  <div class="form-group">
-                    <input type="text"
+                <div class="form-group">
+                  <input type="text"
                            class="text"
                            name="order[телефон]"
-                           placeholder="Контактный телефон"
+                           placeholder="Телефон"
                            data-required="true"
                            data-name="Телефон"
                           />
-                    <div class="error"></div>
-                  </div>
+                  <div class="error"></div>
                 </div>
                 <div class="buttons form-group">
                   <input type="submit"
                          class="submit button"
-                         value="Позвонить мне!" />
+                         value="Оставить заявку" />
                 </div>
                 <div class="clearfix"></div>
               </div>
@@ -900,6 +847,7 @@
               <div class="modal-body">
                 <div class="form">
                   <form action="mailer.php"
+                        class="form-inline"
                         method="post"
                         data-metrika-goal="footerform">
                   <input name="order[форма]"
@@ -907,33 +855,20 @@
                          type="hidden"/>
 
                     <div class="cont">
-                      <!-- <p>Мы перезвоним в течении 1 минуты</p> -->
-                      <div class="fields">
-                        <div class="form-group">
-                          <input type="text"
-                                 class="text"
-                                 name="order[имя]"
-                                 placeholder="Ваше имя"
-                                 data-required="true"
-                                 data-name="Имя"
-                                 />
-                          <div class="error"></div>
-                        </div>
-                        <div class="form-group">
-                          <input type="text"
+                      <div class="form-group">
+                        <input type="text"
                                  class="text"
                                  name="order[телефон]"
-                                 placeholder="Контактный телефон"
+                                 placeholder="Телефон"
                                  data-required="true"
                                  data-name="Телефон"
                                 />
                           <div class="error"></div>
                         </div>
-                      </div>
                       <div class="buttons form-group">
                         <input type="submit"
                                class="submit button"
-                               value="Позвонить мне!" />
+                               value="Оставить заявку" />
                       </div>
                       <div class="clearfix"></div>
                     </div>

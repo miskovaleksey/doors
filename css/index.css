@@ -152,9 +152,11 @@ body .modal-dialog .modal-content .modal-header {
 body .modal-dialog .modal-content .modal-header h4 {
   font-size: 24px;
 }
-body .modal-dialog .modal-content .modal-body .form .fields .form-group input {
-  height: 38px;
+body .modal-dialog .modal-content .modal-body .form .form-group input.text {
+  height: 47px;
   padding-left: 17px;
+  font-size: 16px;
+  width: 80%;
 }
 body .modal-dialog .modal-content .modal-body form .loader,
 body .modal-dialog .modal-content .modal-body form .success {
@@ -739,6 +741,11 @@ body .eggs .desc h2 {
 body .eggs .desc p {
   margin: 0;
   font-size: 20px;
+}
+
+body .eggs .desc .text .text-action{
+  font-size: 24px;
+  line-height: 20px;
 }
 @media (min-width: 0px) and (max-width: 991px) {
   body .eggs .desc p {
